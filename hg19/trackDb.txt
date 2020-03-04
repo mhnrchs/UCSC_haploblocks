@@ -3,3 +3,6 @@ bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg1
 shortLabel GBR sHat
 longLabel Selection coefficient estimates for GBR population in 1000 genomes project
 type bigWig
+visibility full
+windowingFunction maximum
+alwaysZero on
