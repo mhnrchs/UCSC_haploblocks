@@ -1,2 +1,2 @@
 genome hg19
-trackDB hg19/trackDB.txt
+trackDb hg19/trackDB.txt
