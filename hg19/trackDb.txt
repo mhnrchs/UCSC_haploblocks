@@ -1,7 +1,17 @@
 track GBR_sHat
 bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GBR.bw
 shortLabel GBR sHat
-longLabel Selection coefficient estimates for GBR population in 1000 genomes project
+longLabel Selection coefficient estimates for GBR (British in England and Scotland) population in 1000 genomes project
+type bigWig
+autoScale on
+visibility full
+windowingFunction maximum
+alwaysZero on
+
+track PJL_sHat
+bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PJL.bw
+shortLabel PJL sHat
+longLabel Selection coefficient estimates for PJL (Punjabi from Lahore) population in 1000 genomes project
 type bigWig
 autoScale on
 visibility full
