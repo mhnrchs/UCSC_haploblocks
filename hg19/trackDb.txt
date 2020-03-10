@@ -30,7 +30,7 @@ alwaysZero on
 
 track EUR_sHat
 bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/EUR.bw
-shortLabel GBR sHat
+shortLabel EUR sHat
 longLabel Selection coefficient estimates for EUR (EUropean) super population in 1000 genomes project, consisting of 503 individuals
 type bigWig
 autoScale on
@@ -40,7 +40,7 @@ alwaysZero on
 
 track SAS_sHat
 bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/SAS.bw
-shortLabel GBR sHat
+shortLabel SAS sHat
 longLabel Selection coefficient estimates for SAS (South Asian) super population in 1000 genomes project, consisting of 489 individuals
 type bigWig
 autoScale on
