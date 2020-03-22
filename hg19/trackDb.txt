@@ -68,3 +68,36 @@ autoScale on
 visibility hide
 windowingFunction maximum
 alwaysZero on
+
+
+
+track multi_test
+container multiWig
+shortLabel multi_test
+longLabel Test for overlaying multiple tracks in an multiwig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+type bigWig
+autoScale group
+alwaysZero on
+
+    track test_one
+    parent multi_test
+    color 255,0,0
+    type bigWig
+    shortLabel AFR sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AFR.bw
+    
+    track test_two
+    parent multi_test
+    color 0,255,0
+    type bigWig
+    shortLabel AMR sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AMR.bw
+    
+    track test_three
+    parent multi_test
+    color 0,0,255
+    type bigWig
+    shortLabel EUR sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/EUR.bw
