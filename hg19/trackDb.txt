@@ -83,21 +83,21 @@ alwaysZero on
 
     track test_one
     parent multi_test
-    color 255,0,0
+    color 127,0,0
     type bigWig
     shortLabel AFR sHat
     bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AFR.bw
     
     track test_two
     parent multi_test
-    color 0,255,0
+    color 0,127,0
     type bigWig
     shortLabel AMR sHat
     bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AMR.bw
     
     track test_three
     parent multi_test
-    color 0,0,255
+    color 0,0,127
     type bigWig
     shortLabel EUR sHat
     bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/EUR.bw
