@@ -236,8 +236,8 @@ maxHeightPixels 256:128:16
 
 track pops_w20000
 container multiWig
-shortLabel AMR_pops_20000
-longLabel AMR (Ad Mixed American) populations
+shortLabel pops_20000
+longLabel single populations with weight >= 20000
 aggregate transparentOverlay
 type bigWig
 windowingFunction maximum
