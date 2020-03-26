@@ -31,7 +31,7 @@ alwaysZero on
 track EUR_sHat
 bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/EUR.bw
 shortLabel EUR sHat
-longLabel Selection coefficient estimates for EUR (EUropean) super population in 1000 genomes project, 503 individuals
+longLabel Selection coefficient estimates for EUR (European) super population in 1000 genomes project, 503 individuals
 type bigWig
 autoScale on
 visibility hide
@@ -78,9 +78,11 @@ longLabel sHat estimates for all blocks, all five super populations
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 type bigWig
+windowingFunction maximum
 visibility full
 autoScale group
 alwaysZero on
+maxHeightPixels 256:128:16
 
     track AFR_shat_w0
     parent super_w0
@@ -111,7 +113,7 @@ alwaysZero on
     color 149,128,255
     type bigWig
     shortLabel EUR sHat
-    longLabel Selection coefficient estimates for EUR (EUropean) super population in 1000 genomes project, 503 individuals
+    longLabel Selection coefficient estimates for EUR (European) super population in 1000 genomes project, 503 individuals
     bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/EUR.bw
     
     track SAS_shat_w0
@@ -119,9 +121,62 @@ alwaysZero on
     color 255,128,212
     type bigWig
     shortLabel SAS sHat
-    longLabel Selection coefficient estimates for EUR (EUropean) super population in 1000 genomes project, 503 individuals
+    longLabel Selection coefficient estimates for SAS (South Asian) super population in 1000 genomes project, 489 individuals
     bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/SAS.bw
 
+
+track super_w100000
+container multiWig
+shortLabel super_w100000
+longLabel sHat estimates for blocks of weight >=100000, all five super populations
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+type bigWig
+windowingFunction maximum
+visibility full
+autoScale group
+alwaysZero on
+maxHeightPixels 256:128:16
+
+    track AFR_shat_w100000
+    parent super_w100000
+    color 255,128,128
+    type bigWig
+    shortLabel AFR sHat
+    longLabel Selection coefficient estimates for AFR (African) super population in 1000 genomes project, 661 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/100000/AFR_100000.bw
+    
+    track AMR_shat_w100000
+    parent super_w100000
+    color 227,255,128
+    type bigWig
+    shortLabel AMR sHat
+    longLabel Selection coefficient estimates for AMR (Ad Mixed American) super population in 1000 genomes project, 347 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/100000/AMR_100000.bw
+    
+    track EAS_shat_w100000
+    parent super_w100000
+    color 128,255,242
+    type bigWig
+    shortLabel EAS sHat
+    longLabel Selection coefficient estimates for EAS (East Asian) super population in 1000 genomes project, 504 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/100000/EAS_100000.bw
+    
+    track EUR_shat_w100000
+    parent super_w100000
+    color 149,128,255
+    type bigWig
+    shortLabel EUR sHat
+    longLabel Selection coefficient estimates for EUR (EUropean) super population in 1000 genomes project, 503 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/100000/EUR_100000.bw
+    
+    track SAS_shat_w100000
+    parent super_w100000
+    color 255,128,212
+    type bigWig
+    shortLabel SAS sHat
+    longLabel Selection coefficient estimates for SAS (South Asian) super population in 1000 genomes project, 489 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/100000/SAS_100000.bw
 
 
 track super_w200000
@@ -131,9 +186,11 @@ longLabel sHat estimates for blocks of weight >=200000, all five super populatio
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 type bigWig
+windowingFunction maximum
 visibility full
 autoScale group
 alwaysZero on
+maxHeightPixels 256:128:16
 
     track AFR_shat_w200000
     parent super_w200000
@@ -172,5 +229,5 @@ alwaysZero on
     color 255,128,212
     type bigWig
     shortLabel SAS sHat
-    longLabel Selection coefficient estimates for EUR (EUropean) super population in 1000 genomes project, 503 individuals
+    longLabel Selection coefficient estimates for SAS (South Asian) super population in 1000 genomes project, 489 individuals
     bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/200000/SAS_200000.bw
