@@ -1,0 +1,2 @@
+sHat values calculated with wrong formula (haldane's map function applied twice, wrong delta_r).
+causes them to be way too low (factor of 10 to 100).
