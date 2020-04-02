@@ -164,7 +164,7 @@ track pops_w20000
 container multiWig
 shortLabel pops_20000
 longLabel single populations with weight >= 20000
-aggregate transparentOverlay
+aggregate none
 type bigWig
 windowingFunction maximum
 autoScale group
