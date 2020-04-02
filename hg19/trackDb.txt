@@ -17,7 +17,7 @@ maxHeightPixels 256:128:16
     type bigWig
     shortLabel AFR sHat
     longLabel Selection coefficient estimates for AFR (African) super population in 1000 genomes project, 661 individuals
-    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/0/AFR.bw
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/0/AFR_0.bw
     
     track AMR_w0
     parent super_w0
@@ -25,7 +25,7 @@ maxHeightPixels 256:128:16
     type bigWig
     shortLabel AMR sHat
     longLabel Selection coefficient estimates for AMR (Ad Mixed American) super population in 1000 genomes project, 347 individuals
-    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/0/AMR.bw
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/0/AMR_0.bw
     
     track EAS_w0
     parent super_w0
@@ -33,7 +33,7 @@ maxHeightPixels 256:128:16
     type bigWig
     shortLabel EAS sHat
     longLabel Selection coefficient estimates for EAS (East Asian) super population in 1000 genomes project, 504 individuals
-    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/0/EAS.bw
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/0/EAS_0.bw
     
     track EUR_w0
     parent super_w0
@@ -41,7 +41,7 @@ maxHeightPixels 256:128:16
     type bigWig
     shortLabel EUR sHat
     longLabel Selection coefficient estimates for EUR (European) super population in 1000 genomes project, 503 individuals
-    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/0/EUR.bw
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/0/EUR_0.bw
     
     track SAS_w0
     parent super_w0
@@ -49,7 +49,7 @@ maxHeightPixels 256:128:16
     type bigWig
     shortLabel SAS sHat
     longLabel Selection coefficient estimates for SAS (South Asian) super population in 1000 genomes project, 489 individuals
-    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/0/SAS.bw
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/0/SAS_0.bw
 
 
 track super_w100000
@@ -114,7 +114,7 @@ aggregate transparentOverlay
 showSubtrackColorOnUi on
 type bigWig
 windowingFunction maximum
-visibility hide
+visibility full
 autoScale group
 alwaysZero on
 maxHeightPixels 256:128:16
