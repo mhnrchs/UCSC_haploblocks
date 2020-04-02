@@ -1,3 +1,361 @@
+track super_w0
+container multiWig
+shortLabel super_w0
+longLabel sHat estimates for all blocks, all five super populations
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+type bigWig
+windowingFunction maximum
+visibility full
+autoScale group
+alwaysZero on
+maxHeightPixels 256:128:16
+
+    track AFR_w0
+    parent super_w0
+    color 255,128,128
+    type bigWig
+    shortLabel AFR sHat
+    longLabel Selection coefficient estimates for AFR (African) super population in 1000 genomes project, 661 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/0/AFR.bw
+    
+    track AMR_w0
+    parent super_w0
+    color 227,255,128
+    type bigWig
+    shortLabel AMR sHat
+    longLabel Selection coefficient estimates for AMR (Ad Mixed American) super population in 1000 genomes project, 347 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/0/AMR.bw
+    
+    track EAS_w0
+    parent super_w0
+    color 128,255,242
+    type bigWig
+    shortLabel EAS sHat
+    longLabel Selection coefficient estimates for EAS (East Asian) super population in 1000 genomes project, 504 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/0/EAS.bw
+    
+    track EUR_w0
+    parent super_w0
+    color 149,128,255
+    type bigWig
+    shortLabel EUR sHat
+    longLabel Selection coefficient estimates for EUR (European) super population in 1000 genomes project, 503 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/0/EUR.bw
+    
+    track SAS_w0
+    parent super_w0
+    color 255,128,212
+    type bigWig
+    shortLabel SAS sHat
+    longLabel Selection coefficient estimates for SAS (South Asian) super population in 1000 genomes project, 489 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/0/SAS.bw
+
+
+track super_w100000
+container multiWig
+shortLabel super_w100000
+longLabel sHat estimates for blocks of weight >= 100000, all five super populations
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+type bigWig
+windowingFunction maximum
+visibility full
+autoScale group
+alwaysZero on
+maxHeightPixels 256:128:16
+
+    track AFR_w100000
+    parent super_w100000
+    color 255,128,128
+    type bigWig
+    shortLabel AFR sHat
+    longLabel Selection coefficient estimates for AFR (African) super population in 1000 genomes project, 661 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/100000/AFR_100000.bw
+    
+    track AMR_w100000
+    parent super_w100000
+    color 227,255,128
+    type bigWig
+    shortLabel AMR sHat
+    longLabel Selection coefficient estimates for AMR (Ad Mixed American) super population in 1000 genomes project, 347 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/100000/AMR_100000.bw
+    
+    track EAS_w100000
+    parent super_w100000
+    color 128,255,242
+    type bigWig
+    shortLabel EAS sHat
+    longLabel Selection coefficient estimates for EAS (East Asian) super population in 1000 genomes project, 504 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/100000/EAS_100000.bw
+    
+    track EUR_w100000
+    parent super_w100000
+    color 149,128,255
+    type bigWig
+    shortLabel EUR sHat
+    longLabel Selection coefficient estimates for EUR (EUropean) super population in 1000 genomes project, 503 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/100000/EUR_100000.bw
+    
+    track SAS_w100000
+    parent super_w100000
+    color 255,128,212
+    type bigWig
+    shortLabel SAS sHat
+    longLabel Selection coefficient estimates for SAS (South Asian) super population in 1000 genomes project, 489 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/100000/SAS_100000.bw
+
+
+track super_w200000
+container multiWig
+shortLabel super_w200000
+longLabel sHat estimates for blocks of weight >= 200000, all five super populations
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+type bigWig
+windowingFunction maximum
+visibility hide
+autoScale group
+alwaysZero on
+maxHeightPixels 256:128:16
+
+    track AFR_w200000
+    parent super_w200000
+    color 255,128,128
+    type bigWig
+    shortLabel AFR sHat
+    longLabel Selection coefficient estimates for AFR (African) super population in 1000 genomes project, 661 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/200000/AFR_200000.bw
+    
+    track AMR_w200000
+    parent super_w200000
+    color 227,255,128
+    type bigWig
+    shortLabel AMR sHat
+    longLabel Selection coefficient estimates for AMR (Ad Mixed American) super population in 1000 genomes project, 347 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/200000/AMR_200000.bw
+    
+    track EAS_w200000
+    parent super_w200000
+    color 128,255,242
+    type bigWig
+    shortLabel EAS sHat
+    longLabel Selection coefficient estimates for EAS (East Asian) super population in 1000 genomes project, 504 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/200000/EAS_200000.bw
+    
+    track EUR_w200000
+    parent super_w200000
+    color 149,128,255
+    type bigWig
+    shortLabel EUR sHat
+    longLabel Selection coefficient estimates for EUR (EUropean) super population in 1000 genomes project, 503 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/200000/EUR_200000.bw
+    
+    track SAS_w200000
+    parent super_w200000
+    color 255,128,212
+    type bigWig
+    shortLabel SAS sHat
+    longLabel Selection coefficient estimates for SAS (South Asian) super population in 1000 genomes project, 489 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/200000/SAS_200000.bw
+
+
+track pops_w20000
+container multiWig
+shortLabel pops_20000
+longLabel single populations with weight >= 20000
+aggregate transparentOverlay
+type bigWig
+windowingFunction maximum
+autoScale group
+alwaysZero on
+maxHeightPixels 256:128:16
+visibility hide
+
+    track ACB_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel ACB sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/ACB_20000.bw
+
+    track ASW_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel ASW sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/ASW_20000.bw
+
+    track BEB_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel BEB sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/BEB_20000.bw
+
+    track CDX_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel CDX sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/CDX_20000.bw
+
+    track CEU_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel CEU sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/CEU_20000.bw
+
+    track CHB_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel CHB sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/CHB_20000.bw
+
+    track CHS_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel CHS sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/CHS_20000.bw
+
+    track CLM_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel CLM sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/CLM_20000.bw
+
+    track ESN_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel ESN sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/ESN_20000.bw
+
+    track FIN_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel FIN sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/FIN_20000.bw
+
+    track GBR_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel GBR sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/GBR_20000.bw
+
+    track GIH_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel GIH sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/GIH_20000.bw
+
+    track GWD_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel GWD sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/GWD_20000.bw
+
+    track IBS_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel IBS sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/IBS_20000.bw
+
+    track ITU_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel ITU sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/ITU_20000.bw
+
+    track JPT_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel JPT sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/JPT_20000.bw
+
+    track KHV_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel KHV sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/KHV_20000.bw
+
+    track LWK_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel LWK sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/LWK_20000.bw
+
+    track MSL_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel MSL sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/MSL_20000.bw
+
+    track MXL_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel MXL sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/MXL_20000.bw
+
+    track PEL_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel PEL sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/PEL_20000.bw
+
+    track PJL_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel PJL sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/PJL_20000.bw
+
+    track PUR_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel PUR sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/PUR_20000.bw
+
+    track STU_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel STU sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/STU_20000.bw
+
+    track TSI_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel TSI sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/TSI_20000.bw
+
+    track YRI_w20000
+    parent pops_w20000
+    type bigWig
+    shortLabel YRI sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/YRI_20000.bw
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 track super_w0_old
 container multiWig
 shortLabel super_w0_old
