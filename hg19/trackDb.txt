@@ -327,3 +327,181 @@ visibility hide
     type bigWig
     shortLabel YRI sHat
     bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/20000/YRI_20000.bw
+
+
+
+
+
+
+
+
+
+
+
+track pops_statfilter
+container multiWig
+shortLabel pops_statfilter
+longLabel single populations filtered based on block age
+aggregate none
+type bigWig
+windowingFunction maximum
+autoScale group
+alwaysZero on
+maxHeightPixels 256:128:16
+visibility hide
+
+    track ACB_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel ACB sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/ACB_0.bw
+
+    track ASW_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel ASW sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/ASW_0.bw
+
+    track BEB_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel BEB sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/BEB_0.bw
+
+    track CDX_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel CDX sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/CDX_0.bw
+
+    track CEU_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel CEU sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/CEU_0.bw
+
+    track CHB_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel CHB sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/CHB_0.bw
+
+    track CHS_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel CHS sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/CHS_0.bw
+
+    track CLM_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel CLM sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/CLM_0.bw
+
+    track ESN_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel ESN sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/ESN_0.bw
+
+    track FIN_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel FIN sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/FIN_0.bw
+
+    track GBR_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel GBR sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/GBR_0.bw
+
+    track GIH_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel GIH sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/GIH_0.bw
+
+    track GWD_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel GWD sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/GWD_0.bw
+
+    track IBS_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel IBS sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/IBS_0.bw
+
+    track ITU_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel ITU sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/ITU_0.bw
+
+    track JPT_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel JPT sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/JPT_0.bw
+
+    track KHV_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel KHV sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/KHV_0.bw
+
+    track LWK_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel LWK sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/LWK_0.bw
+
+    track MSL_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel MSL sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/MSL_0.bw
+
+    track MXL_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel MXL sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/MXL_0.bw
+
+    track PEL_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel PEL sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/PEL_0.bw
+
+    track PJL_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel PJL sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/PJL_0.bw
+
+    track PUR_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel PUR sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/PUR_0.bw
+
+    track STU_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel STU sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/STU_0.bw
+
+    track TSI_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel TSI sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/TSI_0.bw
+
+    track YRI_statfilter
+    parent pops_statfilter
+    type bigWig
+    shortLabel YRI sHat
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/YRI_0.bw
