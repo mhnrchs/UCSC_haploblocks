@@ -335,7 +335,16 @@ visibility hide
 
 
 
-
+track ALL_statfilter
+type bigWig
+shortLabel ACB sHat
+longLabel ALL populations filtered based on block age
+windowingFunction maximum
+autoScale group
+alwaysZero on
+maxHeightPixels 256:128:16
+visibility full
+bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/ALL_0.bw
 
 
 track pops_statfilter
