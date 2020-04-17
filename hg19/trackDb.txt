@@ -333,7 +333,58 @@ visibility hide
 
 
 
+track super_statfilter
+container multiWig
+shortLabel super_statfilter
+longLabel sHat estimates for all blocks, all five super populations, threshold 3e-6
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+type bigWig
+windowingFunction maximum
+visibility full
+autoScale group
+alwaysZero on
+maxHeightPixels 256:128:16
 
+    track AFR_statfilter
+    parent super_statfilter
+    color 255,128,128
+    type bigWig
+    shortLabel AFR sHat
+    longLabel Selection coefficient estimates for AFR (African) super population in 1000 genomes project, 661 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/AFR_0.bw
+    
+    track AMR_statfilter
+    parent super_statfilter
+    color 227,255,128
+    type bigWig
+    shortLabel AMR sHat
+    longLabel Selection coefficient estimates for AMR (Ad Mixed American) super population in 1000 genomes project, 347 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/AMR_0.bw
+    
+    track EAS_statfilter
+    parent super_statfilter
+    color 128,255,242
+    type bigWig
+    shortLabel EAS sHat
+    longLabel Selection coefficient estimates for EAS (East Asian) super population in 1000 genomes project, 504 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/EAS_0.bw
+    
+    track EUR_statfilter
+    parent super_statfilter
+    color 149,128,255
+    type bigWig
+    shortLabel EUR sHat
+    longLabel Selection coefficient estimates for EUR (European) super population in 1000 genomes project, 503 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/EUR_0.bw
+    
+    track SAS_statfilter
+    parent super_statfilter
+    color 255,128,212
+    type bigWig
+    shortLabel SAS sHat
+    longLabel Selection coefficient estimates for SAS (South Asian) super population in 1000 genomes project, 489 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/SAS_0.bw
 
 
 
