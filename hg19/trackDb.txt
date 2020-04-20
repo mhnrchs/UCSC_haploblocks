@@ -161,6 +161,8 @@ maxHeightPixels 256:128:16
 
 
 track ALL_statfilter
+shortLabel ALL sHat
+longLabel Selection coefficient estimates for all 2504 individuals in 100 genomes project, filtered by age.
 type bigWig 0 0.1
 autoScale on
 maxHeightPixels 256:128:16
