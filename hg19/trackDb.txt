@@ -6,7 +6,7 @@ aggregate transparentOverlay
 showSubtrackColorOnUi on
 type bigWig
 windowingFunction maximum
-visibility full
+visibility hide
 autoScale group
 alwaysZero on
 maxHeightPixels 256:128:16
@@ -60,7 +60,7 @@ aggregate transparentOverlay
 showSubtrackColorOnUi on
 type bigWig
 windowingFunction maximum
-visibility full
+visibility hide
 autoScale group
 alwaysZero on
 maxHeightPixels 256:128:16
@@ -114,7 +114,7 @@ aggregate transparentOverlay
 showSubtrackColorOnUi on
 type bigWig
 windowingFunction maximum
-visibility full
+visibility hide
 autoScale group
 alwaysZero on
 maxHeightPixels 256:128:16
@@ -161,7 +161,7 @@ maxHeightPixels 256:128:16
 
 
 track ALL_statfilter
-shortLabel ALL sHat
+shortLabel ALL_sHat
 longLabel Selection coefficient estimates for all 2504 individuals in 100 genomes project, filtered by age.
 type bigWig 0 0.1
 autoScale on
@@ -176,7 +176,7 @@ track super_statfilter
 container multiWig
 shortLabel super_statfilter
 longLabel sHat estimates for all blocks, all five super populations, threshold 3e-6
-aggregate transparentOverlay
+aggregate none
 showSubtrackColorOnUi on
 type bigWig
 windowingFunction maximum
