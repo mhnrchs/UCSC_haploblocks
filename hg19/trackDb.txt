@@ -400,6 +400,7 @@ visibility hide
 track bedtest
 compositeTrack on
 longLabel Test for bed and wig interaction
+type bed 3
 shortLabel bed test
 subGroup1 pop Population AMR=Ad_Mixed_American EUR=European
 subGroup2 freq Frequency low=rare high=common
