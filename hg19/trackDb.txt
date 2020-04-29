@@ -455,6 +455,7 @@ dragAndDrop subTracks
         longLabel signal_AMR_low_lenient
         color 227,255,128
         subGroups view=Signal pop=AMR freq=low thresh=lenient
+        type bigWig
         
         track signal_EUR_low_lenient
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/EUR_0.bw
@@ -463,4 +464,4 @@ dragAndDrop subTracks
         longLabel signal_EUR_low_lenient
         color 227,255,128
         subGroups view=Signal pop=EUR freq=low thresh=lenient
-        
+        type bigWig
