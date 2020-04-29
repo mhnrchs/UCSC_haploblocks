@@ -394,3 +394,72 @@ visibility hide
     type bigWig
     shortLabel YRI sHat
     bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/YRI_0.bw
+
+
+
+track bedtest
+compositeTrack on
+longLabel Test for bed and wig interaction
+shortLabel bed test
+subGroup1 pop Population AMR=Ad_Mixed_American EUR=European
+subGroup2 freq Frequency low=rare high=common
+subGroup3 thresh Threshold lenient=3e-4 standard=3e-6
+subGroup4 view View Peaks=Peaks Signal=Signal
+subGroup5 subtrackColor Color
+dimensions dimX=freq dimY=pop dimA=thresh
+filterComposite dimA
+sortOrder pop=+ freq=+ subtrackColor=+ thresh=+ view=-
+showSubtrackColorOnUi on
+dragAndDrop subTracks
+
+    track bedtestPeaks
+    parent bedtest
+    shortLabel Peaks
+    view Peaks
+    visibility dense
+    type bigBed 3 +
+    
+        track peak_AMR_low_lenient
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/bedtest/chr22_EUR.bb
+        parent bedtestPeaks on
+        shortLabel AMR_low_lenient
+        longLabel peak_AMR_low_lenient
+        type bigBed 3 +
+        color 227,255,128
+        subGroups view=Peaks pop=AMR freq=low thresh=lenient
+        
+        track peak_EUR_low_lenient
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/bedtest/chr22_EUR.bb
+        parent bedtestPeaks on
+        shortLabel EUR_low_lenient
+        longLabel EUR_low_lenient
+        type bigBed 3 +
+        color 149,128,255
+        subGroups view=Peaks pop=EUR freq=low thresh=lenient
+        
+    track bedTestSignal
+    parent bedtest
+    shortLabel Signal
+    view Signal
+    type bigWig
+    autoScale group
+    alwaysZero on
+    maxHeightPixels 256:128:16
+    visibility full
+
+        track signal_AMR_low_lenient
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/AMR_0.bw
+        parent bedTestSignal on
+        shortLabel AMR_low_lenient
+        longLabel signal_AMR_low_lenient
+        color 227,255,128
+        subGroups view=Signal pop=AMR freq=low thresh=lenient
+        
+        track signal_EUR_low_lenient
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/EUR_0.bw
+        parent bedTestSignal on
+        shortLabel EUR_low_lenient
+        longLabel signal_EUR_low_lenient
+        color 227,255,128
+        subGroups view=Signal pop=EUR freq=low thresh=lenient
+        
