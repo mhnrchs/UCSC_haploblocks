@@ -417,7 +417,7 @@ dragAndDrop subTracks
     parent bedtest
     shortLabel Peaks
     view Peaks
-    visibility dense
+    visibility squish
     type bigBed 3 +
     
         track peak_AMR_low_lenient
@@ -573,3 +573,126 @@ dragAndDrop subTracks
         color 149,128,255
         subGroups view=Signal pop=EUR freq=high thresh=standard
         type bigWig
+
+
+
+track sHat_ancestries
+compositeTrack on
+longLabel Selection coefficient 
+type bed 3
+shortLabel shat ancestries
+subGroup1 anc Ancestry AFR=African AMR=Ad_Mixed_American EAS=East_Asian EUR=European SAS=South_Asian
+subGroup2 freq Frequency one=MAC_1 two=MAC_2 rare=MAF_0.5% low=MAF_1% common=MAF_5%
+subGroup3 view View Peaks=Peaks Signal=Signal
+subGroup4subtrackColor Color
+dimensions dimX=freq dimY=anc
+sortOrder anc=+ freq=+ subtrackColor=+ view=-
+showSubtrackColorOnUi on
+dragAndDrop subTracks
+
+    track ancestry_peak
+    parent sHat_ancestries
+    shortLabel block info
+    view Peaks
+    visibility hide
+    type bigBed 3 +
+
+        track AFR_MAC_1_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AFR/AFR_MAC_1.bigBed
+        parent ancestry_peak off
+        shortLabel AFR_MAC_1 info
+        longLabel Additional information on haplotype blocks for AFR_MAC_1
+        type bigBed 3 +
+        color 227,255,128
+        subGroups view=Peaks pop=AFR freq=one
+
+        track AFR_MAC_2_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AFR/AFR_MAC_2.bigBed
+        parent ancestry_peak off
+        shortLabel AFR_MAC_2 info
+        longLabel Additional information on haplotype blocks for AFR_MAC_2
+        type bigBed 3 +
+        color 227,255,128
+        subGroups view=Peaks pop=AFR freq=two
+
+        track AFR_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AFR/AFR_MAF_0.005.bigBed
+        parent ancestry_peak off
+        shortLabel AFR_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for AFR_MAF_0.005
+        type bigBed 3 +
+        color 227,255,128
+        subGroups view=Peaks pop=AFR freq=rare
+
+        track AFR_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AFR/AFR_MAF_0.01.bigBed
+        parent ancestry_peak off
+        shortLabel AFR_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for AFR_MAF_0.01
+        type bigBed 3 +
+        color 227,255,128
+        subGroups view=Peaks pop=AFR freq=low
+
+        track AFR_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AFR/AFR_MAF_0.05.bigBed
+        parent ancestry_peak on
+        shortLabel AFR_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for AFR_MAF_0.05
+        type bigBed 3 +
+        color 227,255,128
+        subGroups view=Peaks pop=AFR freq=common
+
+    track ancestry_signal
+    parent sHat_ancestries
+    shortLabel sHat estimates
+    view Signal
+    type bigWig
+    autoScale group
+    alwaysZero on
+    maxHeightPixels 256:128:16
+    visibility full
+
+        track AFR_MAC_1_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AFR/AFR_MAC_1.bigWig
+        parent ancestry_signal off
+        shortLabel AFR_MAC_1 sHat
+        longLabel Selection coefficient estimates for for AFR_MAC_1
+        type bigWig
+        color 227,255,128
+        subGroups view=Signal pop=AFR freq=one
+
+        track AFR_MAC_2_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AFR/AFR_MAC_2.bigWig
+        parent ancestry_signal off
+        shortLabel AFR_MAC_2 sHat
+        longLabel Selection coefficient estimates for for AFR_MAC_2
+        type bigWig
+        color 227,255,128
+        subGroups view=Signal pop=AFR freq=two
+
+        track AFR_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AFR/AFR_MAF_0.005.bigWig
+        parent ancestry_signal off
+        shortLabel AFR_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for AFR_MAF_0.005
+        type bigWig
+        color 227,255,128
+        subGroups view=Signal pop=AFR freq=rare
+
+        track AFR_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AFR/AFR_MAF_0.01.bigWig
+        parent ancestry_signal off
+        shortLabel AFR_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for AFR_MAF_0.01
+        type bigWig
+        color 227,255,128
+        subGroups view=Signal pop=AFR freq=low
+
+        track AFR_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AFR/AFR_MAF_0.05.bigWig
+        parent ancestry_signal on
+        shortLabel AFR_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for AFR_MAF_0.05
+        type bigWig
+        color 227,255,128
+        subGroups view=Signal pop=AFR freq=common
