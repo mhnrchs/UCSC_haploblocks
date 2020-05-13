@@ -876,3 +876,90 @@ visbility full
         color 255,47,255
         subGroups view=Signal pop=SAS freq=common
 
+
+track sHat_populations
+compositeTrack on
+longLabel Selection coefficient on individual populations
+type bed 3
+shortLabel shat populations
+subGroup1 pop Ancestry GBR=Great_Britain
+subGroup2 freq Frequency rare=MAF_0.5% low=MAF_1% common=MAF_5%
+subGroup3 view View Peaks=Peaks Signal=Signal
+subGroup4subtrackColor Color
+dimensions dimX=freq dimY=pop
+sortOrder pop=+ freq=+ subtrackColor=+ view=-
+showSubtrackColorOnUi on
+dragAndDrop subTracks
+visibility hide
+
+    track pop_peak
+    parent sHat_populations
+    shortLabel block info
+    view Peaks
+    visibility hide
+    type bigBed 3 +
+
+        track GBR_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GBR/GBR_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel GBR_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for GBR_MAF_0.005
+        type bigBed 3 +
+        color 0,197,205
+        subGroups view=Peaks pop=GBR freq=rare
+
+        track GBR_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GBR/GBR_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel GBR_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for GBR_MAF_0.01
+        type bigBed 3 +
+        color 0,197,205
+        subGroups view=Peaks pop=GBR freq=low
+
+        track GBR_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GBR/GBR_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel GBR_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for GBR_MAF_0.05
+        type bigBed 3 +
+        color 0,197,205
+        subGroups view=Peaks pop=GBR freq=common
+
+    track pop_signal
+    parent sHat_populations
+    shortLabel sHat estimates
+    view Signal
+    type bigWig
+    autoScale group
+    alwaysZero on
+    maxHeightPixels 256:128:16
+    visibility full
+
+        track GBR_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GBR/GBR_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel GBR_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for GBR_MAF_0.005
+        type bigWig
+        color 0,197,205
+        subGroups view=Signal pop=GBR freq=rare
+
+        track GBR_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GBR/GBR_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel GBR_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for GBR_MAF_0.01
+        type bigWig
+        color 0,197,205
+        subGroups view=Signal pop=GBR freq=low
+
+        track GBR_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GBR/GBR_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel GBR_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for GBR_MAF_0.05
+        type bigWig
+        color 0,197,205
+        subGroups view=Signal pop=GBR freq=common
+
