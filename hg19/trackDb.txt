@@ -401,12 +401,12 @@ compositeTrack on
 longLabel Selection coefficient 
 type bed 3
 shortLabel shat ancestries
-subGroup1 anc Ancestry AFR=African AMR=Ad_Mixed_American EAS=East_Asian EUR=European SAS=South_Asian
+subGroup1 pop Ancestry AFR=African AMR=Ad_Mixed_American EAS=East_Asian EUR=European SAS=South_Asian
 subGroup2 freq Frequency one=MAC_1 two=MAC_2 rare=MAF_0.5% low=MAF_1% common=MAF_5%
 subGroup3 view View Peaks=Peaks Signal=Signal
 subGroup4subtrackColor Color
-dimensions dimX=freq dimY=anc
-sortOrder anc=+ freq=+ subtrackColor=+ view=-
+dimensions dimX=freq dimY=pop
+sortOrder pop=+ freq=+ subtrackColor=+ view=-
 showSubtrackColorOnUi on
 dragAndDrop subTracks
 
@@ -455,7 +455,7 @@ dragAndDrop subTracks
 
         track AFR_MAF_0.05_info
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AFR/AFR_MAF_0.05.bigBed
-        parent ancestry_peak on
+        parent ancestry_peak off
         shortLabel AFR_MAF_0.05 info
         longLabel Additional information on haplotype blocks for AFR_MAF_0.05
         type bigBed 3 +
@@ -500,7 +500,7 @@ dragAndDrop subTracks
 
         track AMR_MAF_0.05_info
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AMR/AMR_MAF_0.05.bigBed
-        parent ancestry_peak on
+        parent ancestry_peak off
         shortLabel AMR_MAF_0.05 info
         longLabel Additional information on haplotype blocks for AMR_MAF_0.05
         type bigBed 3 +
@@ -545,7 +545,7 @@ dragAndDrop subTracks
 
         track EAS_MAF_0.05_info
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/EAS/EAS_MAF_0.05.bigBed
-        parent ancestry_peak on
+        parent ancestry_peak off
         shortLabel EAS_MAF_0.05 info
         longLabel Additional information on haplotype blocks for EAS_MAF_0.05
         type bigBed 3 +
@@ -590,7 +590,7 @@ dragAndDrop subTracks
 
         track EUR_MAF_0.05_info
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/EUR/EUR_MAF_0.05.bigBed
-        parent ancestry_peak on
+        parent ancestry_peak off
         shortLabel EUR_MAF_0.05 info
         longLabel Additional information on haplotype blocks for EUR_MAF_0.05
         type bigBed 3 +
@@ -635,7 +635,7 @@ dragAndDrop subTracks
 
         track SAS_MAF_0.05_info
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/SAS/SAS_MAF_0.05.bigBed
-        parent ancestry_peak on
+        parent ancestry_peak off
         shortLabel SAS_MAF_0.05 info
         longLabel Additional information on haplotype blocks for SAS_MAF_0.05
         type bigBed 3 +
