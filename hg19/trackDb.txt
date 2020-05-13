@@ -180,7 +180,7 @@ aggregate none
 showSubtrackColorOnUi on
 type bigWig
 windowingFunction maximum
-visibility full
+visibility hide
 autoScale group
 alwaysZero on
 maxHeightPixels 256:128:16
@@ -224,8 +224,6 @@ maxHeightPixels 256:128:16
     shortLabel SAS sHat
     longLabel Selection coefficient estimates for SAS (South Asian) super population in 1000 genomes project, 489 individuals
     bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/stat_filter/SAS_0.bw
-
-
 
 track pops_statfilter
 container multiWig
@@ -409,6 +407,7 @@ dimensions dimX=freq dimY=pop
 sortOrder pop=+ freq=+ subtrackColor=+ view=-
 showSubtrackColorOnUi on
 dragAndDrop subTracks
+visbility full
 
     track ancestry_peak
     parent sHat_ancestries
