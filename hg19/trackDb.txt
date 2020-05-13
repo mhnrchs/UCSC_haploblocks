@@ -882,7 +882,7 @@ compositeTrack on
 longLabel Selection coefficient on individual populations
 type bed 3
 shortLabel shat populations
-subGroup1 pop Ancestry GBR=Great_Britain
+subGroup1 pop Population ACB=African_Caribbeans_in_Barbados ASW=Americans_of_African_Ancestry_in_SW_USA BEB=Bengali_from_Bangladesh CDX=Chinese_Dai_in_Xishuangbanna,_China CEU=Utah_residents_(CEPH)_with_Northern_and_Western_European_ancestry CHB=Han_Chinese_in_Beijing,_China CHS=Southern_Han_Chinese CLM=Colombians_from_Medellin,_Colombia ESN=Esan_in_Nigeria FIN=Finnish_in_Finland GBR=British_in_England_and_Scotland GIH=Gujarati_Indian_from_Houston,_Texas_ GWD=Gambian_in_Western_Divisions_in_the_Gambia IBS=Iberian_Population_in_Spain ITU=Indian_Telugu_from_the_UK JPT=Japanese_in_Tokyo,_Japan KHV=Kinh_in_Ho_Chi_Minh_City,_Vietnam LWK=Luhya_in_Webuye,_Kenya MSL=Mende_in_Sierra_Leone MXL=Mexican_Ancestry_from_Los_Angeles_USA PEL=Peruvians_from_Lima,_Peru PJL=Punjabi_from_Lahore,_Pakistan PUR=Puerto_Ricans_from_Puerto_Rico STU=Sri_Lankan_Tamil_from_the_UK TSI=Toscani_in_Italia YRI=Yoruba_in_Ibadan,_Nigeria
 subGroup2 freq Frequency rare=MAF_0.5% low=MAF_1% common=MAF_5%
 subGroup3 view View Peaks=Peaks Signal=Signal
 subGroup4subtrackColor Color
@@ -898,6 +898,276 @@ visibility hide
     view Peaks
     visibility hide
     type bigBed 3 +
+
+        track ACB_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ACB/ACB_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel ACB_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for ACB_MAF_0.005
+        type bigBed 3 +
+        color 255,153,0
+        subGroups view=Peaks pop=ACB freq=rare
+
+        track ACB_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ACB/ACB_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel ACB_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for ACB_MAF_0.01
+        type bigBed 3 +
+        color 255,153,0
+        subGroups view=Peaks pop=ACB freq=low
+
+        track ACB_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ACB/ACB_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel ACB_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for ACB_MAF_0.05
+        type bigBed 3 +
+        color 255,153,0
+        subGroups view=Peaks pop=ACB freq=common
+
+        track ASW_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ASW/ASW_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel ASW_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for ASW_MAF_0.005
+        type bigBed 3 +
+        color 204,102,0
+        subGroups view=Peaks pop=ASW freq=rare
+
+        track ASW_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ASW/ASW_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel ASW_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for ASW_MAF_0.01
+        type bigBed 3 +
+        color 204,102,0
+        subGroups view=Peaks pop=ASW freq=low
+
+        track ASW_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ASW/ASW_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel ASW_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for ASW_MAF_0.05
+        type bigBed 3 +
+        color 204,102,0
+        subGroups view=Peaks pop=ASW freq=common
+
+        track BEB_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/BEB/BEB_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel BEB_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for BEB_MAF_0.005
+        type bigBed 3 +
+        color 138,0,138
+        subGroups view=Peaks pop=BEB freq=rare
+
+        track BEB_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/BEB/BEB_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel BEB_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for BEB_MAF_0.01
+        type bigBed 3 +
+        color 138,0,138
+        subGroups view=Peaks pop=BEB freq=low
+
+        track BEB_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/BEB/BEB_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel BEB_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for BEB_MAF_0.05
+        type bigBed 3 +
+        color 138,0,138
+        subGroups view=Peaks pop=BEB freq=common
+
+        track CDX_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CDX/CDX_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel CDX_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for CDX_MAF_0.005
+        type bigBed 3 +
+        color 51,153,0
+        subGroups view=Peaks pop=CDX freq=rare
+
+        track CDX_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CDX/CDX_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel CDX_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for CDX_MAF_0.01
+        type bigBed 3 +
+        color 51,153,0
+        subGroups view=Peaks pop=CDX freq=low
+
+        track CDX_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CDX/CDX_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel CDX_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for CDX_MAF_0.05
+        type bigBed 3 +
+        color 51,153,0
+        subGroups view=Peaks pop=CDX freq=common
+
+        track CEU_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CEU/CEU_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel CEU_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for CEU_MAF_0.005
+        type bigBed 3 +
+        color 0,0,255
+        subGroups view=Peaks pop=CEU freq=rare
+
+        track CEU_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CEU/CEU_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel CEU_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for CEU_MAF_0.01
+        type bigBed 3 +
+        color 0,0,255
+        subGroups view=Peaks pop=CEU freq=low
+
+        track CEU_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CEU/CEU_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel CEU_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for CEU_MAF_0.05
+        type bigBed 3 +
+        color 0,0,255
+        subGroups view=Peaks pop=CEU freq=common
+
+        track CHB_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CHB/CHB_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel CHB_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for CHB_MAF_0.005
+        type bigBed 3 +
+        color 172,205,0
+        subGroups view=Peaks pop=CHB freq=rare
+
+        track CHB_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CHB/CHB_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel CHB_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for CHB_MAF_0.01
+        type bigBed 3 +
+        color 172,205,0
+        subGroups view=Peaks pop=CHB freq=low
+
+        track CHB_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CHB/CHB_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel CHB_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for CHB_MAF_0.05
+        type bigBed 3 +
+        color 172,205,0
+        subGroups view=Peaks pop=CHB freq=common
+
+        track CHS_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CHS/CHS_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel CHS_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for CHS_MAF_0.005
+        type bigBed 3 +
+        color 0,255,0
+        subGroups view=Peaks pop=CHS freq=rare
+
+        track CHS_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CHS/CHS_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel CHS_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for CHS_MAF_0.01
+        type bigBed 3 +
+        color 0,255,0
+        subGroups view=Peaks pop=CHS freq=low
+
+        track CHS_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CHS/CHS_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel CHS_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for CHS_MAF_0.05
+        type bigBed 3 +
+        color 0,255,0
+        subGroups view=Peaks pop=CHS freq=common
+
+        track CLM_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CLM/CLM_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel CLM_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for CLM_MAF_0.005
+        type bigBed 3 +
+        color 204,51,51
+        subGroups view=Peaks pop=CLM freq=rare
+
+        track CLM_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CLM/CLM_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel CLM_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for CLM_MAF_0.01
+        type bigBed 3 +
+        color 204,51,51
+        subGroups view=Peaks pop=CLM freq=low
+
+        track CLM_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CLM/CLM_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel CLM_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for CLM_MAF_0.05
+        type bigBed 3 +
+        color 204,51,51
+        subGroups view=Peaks pop=CLM freq=common
+
+        track ESN_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ESN/ESN_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel ESN_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for ESN_MAF_0.005
+        type bigBed 3 +
+        color 255,205,0
+        subGroups view=Peaks pop=ESN freq=rare
+
+        track ESN_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ESN/ESN_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel ESN_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for ESN_MAF_0.01
+        type bigBed 3 +
+        color 255,205,0
+        subGroups view=Peaks pop=ESN freq=low
+
+        track ESN_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ESN/ESN_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel ESN_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for ESN_MAF_0.05
+        type bigBed 3 +
+        color 255,205,0
+        subGroups view=Peaks pop=ESN freq=common
+
+        track FIN_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/FIN/FIN_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel FIN_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for FIN_MAF_0.005
+        type bigBed 3 +
+        color 0,235,255
+        subGroups view=Peaks pop=FIN freq=rare
+
+        track FIN_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/FIN/FIN_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel FIN_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for FIN_MAF_0.01
+        type bigBed 3 +
+        color 0,235,255
+        subGroups view=Peaks pop=FIN freq=low
+
+        track FIN_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/FIN/FIN_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel FIN_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for FIN_MAF_0.05
+        type bigBed 3 +
+        color 0,235,255
+        subGroups view=Peaks pop=FIN freq=common
 
         track GBR_MAF_0.005_info
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GBR/GBR_MAF_0.005.bigBed
@@ -926,6 +1196,411 @@ visibility hide
         color 0,197,205
         subGroups view=Peaks pop=GBR freq=common
 
+        track GIH_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GIH/GIH_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel GIH_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for GIH_MAF_0.005
+        type bigBed 3 +
+        color 147,0,210
+        subGroups view=Peaks pop=GIH freq=rare
+
+        track GIH_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GIH/GIH_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel GIH_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for GIH_MAF_0.01
+        type bigBed 3 +
+        color 147,0,210
+        subGroups view=Peaks pop=GIH freq=low
+
+        track GIH_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GIH/GIH_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel GIH_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for GIH_MAF_0.05
+        type bigBed 3 +
+        color 147,0,210
+        subGroups view=Peaks pop=GIH freq=common
+
+        track GWD_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GWD/GWD_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel GWD_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for GWD_MAF_0.005
+        type bigBed 3 +
+        color 255,184,0
+        subGroups view=Peaks pop=GWD freq=rare
+
+        track GWD_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GWD/GWD_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel GWD_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for GWD_MAF_0.01
+        type bigBed 3 +
+        color 255,184,0
+        subGroups view=Peaks pop=GWD freq=low
+
+        track GWD_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GWD/GWD_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel GWD_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for GWD_MAF_0.05
+        type bigBed 3 +
+        color 255,184,0
+        subGroups view=Peaks pop=GWD freq=common
+
+        track IBS_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/IBS/IBS_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel IBS_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for IBS_MAF_0.005
+        type bigBed 3 +
+        color 99,148,236
+        subGroups view=Peaks pop=IBS freq=rare
+
+        track IBS_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/IBS/IBS_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel IBS_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for IBS_MAF_0.01
+        type bigBed 3 +
+        color 99,148,236
+        subGroups view=Peaks pop=IBS freq=low
+
+        track IBS_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/IBS/IBS_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel IBS_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for IBS_MAF_0.05
+        type bigBed 3 +
+        color 99,148,236
+        subGroups view=Peaks pop=IBS freq=common
+
+        track ITU_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ITU/ITU_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel ITU_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for ITU_MAF_0.005
+        type bigBed 3 +
+        color 175,47,95
+        subGroups view=Peaks pop=ITU freq=rare
+
+        track ITU_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ITU/ITU_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel ITU_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for ITU_MAF_0.01
+        type bigBed 3 +
+        color 175,47,95
+        subGroups view=Peaks pop=ITU freq=low
+
+        track ITU_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ITU/ITU_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel ITU_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for ITU_MAF_0.05
+        type bigBed 3 +
+        color 175,47,95
+        subGroups view=Peaks pop=ITU freq=common
+
+        track JPT_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/JPT/JPT_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel JPT_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for JPT_MAF_0.005
+        type bigBed 3 +
+        color 0,138,0
+        subGroups view=Peaks pop=JPT freq=rare
+
+        track JPT_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/JPT/JPT_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel JPT_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for JPT_MAF_0.01
+        type bigBed 3 +
+        color 0,138,0
+        subGroups view=Peaks pop=JPT freq=low
+
+        track JPT_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/JPT/JPT_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel JPT_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for JPT_MAF_0.05
+        type bigBed 3 +
+        color 0,138,0
+        subGroups view=Peaks pop=JPT freq=common
+
+        track KHV_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/KHV/KHV_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel KHV_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for KHV_MAF_0.005
+        type bigBed 3 +
+        color 0,204,51
+        subGroups view=Peaks pop=KHV freq=rare
+
+        track KHV_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/KHV/KHV_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel KHV_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for KHV_MAF_0.01
+        type bigBed 3 +
+        color 0,204,51
+        subGroups view=Peaks pop=KHV freq=low
+
+        track KHV_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/KHV/KHV_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel KHV_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for KHV_MAF_0.05
+        type bigBed 3 +
+        color 0,204,51
+        subGroups view=Peaks pop=KHV freq=common
+
+        track LWK_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/LWK/LWK_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel LWK_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for LWK_MAF_0.005
+        type bigBed 3 +
+        color 204,153,51
+        subGroups view=Peaks pop=LWK freq=rare
+
+        track LWK_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/LWK/LWK_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel LWK_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for LWK_MAF_0.01
+        type bigBed 3 +
+        color 204,153,51
+        subGroups view=Peaks pop=LWK freq=low
+
+        track LWK_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/LWK/LWK_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel LWK_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for LWK_MAF_0.05
+        type bigBed 3 +
+        color 204,153,51
+        subGroups view=Peaks pop=LWK freq=common
+
+        track MSL_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/MSL/MSL_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel MSL_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for MSL_MAF_0.005
+        type bigBed 3 +
+        color 224,184,24
+        subGroups view=Peaks pop=MSL freq=rare
+
+        track MSL_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/MSL/MSL_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel MSL_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for MSL_MAF_0.01
+        type bigBed 3 +
+        color 224,184,24
+        subGroups view=Peaks pop=MSL freq=low
+
+        track MSL_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/MSL/MSL_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel MSL_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for MSL_MAF_0.05
+        type bigBed 3 +
+        color 224,184,24
+        subGroups view=Peaks pop=MSL freq=common
+
+        track MXL_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/MXL/MXL_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel MXL_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for MXL_MAF_0.005
+        type bigBed 3 +
+        color 224,0,51
+        subGroups view=Peaks pop=MXL freq=rare
+
+        track MXL_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/MXL/MXL_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel MXL_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for MXL_MAF_0.01
+        type bigBed 3 +
+        color 224,0,51
+        subGroups view=Peaks pop=MXL freq=low
+
+        track MXL_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/MXL/MXL_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel MXL_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for MXL_MAF_0.05
+        type bigBed 3 +
+        color 224,0,51
+        subGroups view=Peaks pop=MXL freq=common
+
+        track PEL_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PEL/PEL_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel PEL_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for PEL_MAF_0.005
+        type bigBed 3 +
+        color 255,0,0
+        subGroups view=Peaks pop=PEL freq=rare
+
+        track PEL_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PEL/PEL_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel PEL_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for PEL_MAF_0.01
+        type bigBed 3 +
+        color 255,0,0
+        subGroups view=Peaks pop=PEL freq=low
+
+        track PEL_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PEL/PEL_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel PEL_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for PEL_MAF_0.05
+        type bigBed 3 +
+        color 255,0,0
+        subGroups view=Peaks pop=PEL freq=common
+
+        track PJL_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PJL/PJL_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel PJL_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for PJL_MAF_0.005
+        type bigBed 3 +
+        color 224,18,136
+        subGroups view=Peaks pop=PJL freq=rare
+
+        track PJL_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PJL/PJL_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel PJL_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for PJL_MAF_0.01
+        type bigBed 3 +
+        color 224,18,136
+        subGroups view=Peaks pop=PJL freq=low
+
+        track PJL_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PJL/PJL_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel PJL_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for PJL_MAF_0.05
+        type bigBed 3 +
+        color 224,18,136
+        subGroups view=Peaks pop=PJL freq=common
+
+        track PUR_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PUR/PUR_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel PUR_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for PUR_MAF_0.005
+        type bigBed 3 +
+        color 204,51,0
+        subGroups view=Peaks pop=PUR freq=rare
+
+        track PUR_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PUR/PUR_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel PUR_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for PUR_MAF_0.01
+        type bigBed 3 +
+        color 204,51,0
+        subGroups view=Peaks pop=PUR freq=low
+
+        track PUR_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PUR/PUR_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel PUR_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for PUR_MAF_0.05
+        type bigBed 3 +
+        color 204,51,0
+        subGroups view=Peaks pop=PUR freq=common
+
+        track STU_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/STU/STU_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel STU_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for STU_MAF_0.005
+        type bigBed 3 +
+        color 255,0,255
+        subGroups view=Peaks pop=STU freq=rare
+
+        track STU_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/STU/STU_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel STU_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for STU_MAF_0.01
+        type bigBed 3 +
+        color 255,0,255
+        subGroups view=Peaks pop=STU freq=low
+
+        track STU_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/STU/STU_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel STU_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for STU_MAF_0.05
+        type bigBed 3 +
+        color 255,0,255
+        subGroups view=Peaks pop=STU freq=common
+
+        track TSI_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/TSI/TSI_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel TSI_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for TSI_MAF_0.005
+        type bigBed 3 +
+        color 0,0,138
+        subGroups view=Peaks pop=TSI freq=rare
+
+        track TSI_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/TSI/TSI_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel TSI_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for TSI_MAF_0.01
+        type bigBed 3 +
+        color 0,0,138
+        subGroups view=Peaks pop=TSI freq=low
+
+        track TSI_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/TSI/TSI_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel TSI_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for TSI_MAF_0.05
+        type bigBed 3 +
+        color 0,0,138
+        subGroups view=Peaks pop=TSI freq=common
+
+        track YRI_MAF_0.005_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/YRI/YRI_MAF_0.005.bigBed
+        parent pop_peak off
+        shortLabel YRI_MAF_0.005 info
+        longLabel Additional information on haplotype blocks for YRI_MAF_0.005
+        type bigBed 3 +
+        color 255,184,51
+        subGroups view=Peaks pop=YRI freq=rare
+
+        track YRI_MAF_0.01_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/YRI/YRI_MAF_0.01.bigBed
+        parent pop_peak off
+        shortLabel YRI_MAF_0.01 info
+        longLabel Additional information on haplotype blocks for YRI_MAF_0.01
+        type bigBed 3 +
+        color 255,184,51
+        subGroups view=Peaks pop=YRI freq=low
+
+        track YRI_MAF_0.05_info
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/YRI/YRI_MAF_0.05.bigBed
+        parent pop_peak off
+        shortLabel YRI_MAF_0.05 info
+        longLabel Additional information on haplotype blocks for YRI_MAF_0.05
+        type bigBed 3 +
+        color 255,184,51
+        subGroups view=Peaks pop=YRI freq=common
+
     track pop_signal
     parent sHat_populations
     shortLabel sHat estimates
@@ -935,6 +1610,276 @@ visibility hide
     alwaysZero on
     maxHeightPixels 256:128:16
     visibility full
+
+        track ACB_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ACB/ACB_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel ACB_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for ACB_MAF_0.005
+        type bigWig
+        color 255,153,0
+        subGroups view=Signal pop=ACB freq=rare
+
+        track ACB_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ACB/ACB_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel ACB_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for ACB_MAF_0.01
+        type bigWig
+        color 255,153,0
+        subGroups view=Signal pop=ACB freq=low
+
+        track ACB_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ACB/ACB_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel ACB_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for ACB_MAF_0.05
+        type bigWig
+        color 255,153,0
+        subGroups view=Signal pop=ACB freq=common
+
+        track ASW_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ASW/ASW_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel ASW_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for ASW_MAF_0.005
+        type bigWig
+        color 204,102,0
+        subGroups view=Signal pop=ASW freq=rare
+
+        track ASW_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ASW/ASW_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel ASW_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for ASW_MAF_0.01
+        type bigWig
+        color 204,102,0
+        subGroups view=Signal pop=ASW freq=low
+
+        track ASW_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ASW/ASW_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel ASW_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for ASW_MAF_0.05
+        type bigWig
+        color 204,102,0
+        subGroups view=Signal pop=ASW freq=common
+
+        track BEB_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/BEB/BEB_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel BEB_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for BEB_MAF_0.005
+        type bigWig
+        color 138,0,138
+        subGroups view=Signal pop=BEB freq=rare
+
+        track BEB_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/BEB/BEB_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel BEB_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for BEB_MAF_0.01
+        type bigWig
+        color 138,0,138
+        subGroups view=Signal pop=BEB freq=low
+
+        track BEB_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/BEB/BEB_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel BEB_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for BEB_MAF_0.05
+        type bigWig
+        color 138,0,138
+        subGroups view=Signal pop=BEB freq=common
+
+        track CDX_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CDX/CDX_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel CDX_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for CDX_MAF_0.005
+        type bigWig
+        color 51,153,0
+        subGroups view=Signal pop=CDX freq=rare
+
+        track CDX_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CDX/CDX_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel CDX_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for CDX_MAF_0.01
+        type bigWig
+        color 51,153,0
+        subGroups view=Signal pop=CDX freq=low
+
+        track CDX_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CDX/CDX_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel CDX_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for CDX_MAF_0.05
+        type bigWig
+        color 51,153,0
+        subGroups view=Signal pop=CDX freq=common
+
+        track CEU_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CEU/CEU_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel CEU_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for CEU_MAF_0.005
+        type bigWig
+        color 0,0,255
+        subGroups view=Signal pop=CEU freq=rare
+
+        track CEU_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CEU/CEU_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel CEU_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for CEU_MAF_0.01
+        type bigWig
+        color 0,0,255
+        subGroups view=Signal pop=CEU freq=low
+
+        track CEU_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CEU/CEU_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel CEU_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for CEU_MAF_0.05
+        type bigWig
+        color 0,0,255
+        subGroups view=Signal pop=CEU freq=common
+
+        track CHB_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CHB/CHB_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel CHB_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for CHB_MAF_0.005
+        type bigWig
+        color 172,205,0
+        subGroups view=Signal pop=CHB freq=rare
+
+        track CHB_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CHB/CHB_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel CHB_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for CHB_MAF_0.01
+        type bigWig
+        color 172,205,0
+        subGroups view=Signal pop=CHB freq=low
+
+        track CHB_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CHB/CHB_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel CHB_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for CHB_MAF_0.05
+        type bigWig
+        color 172,205,0
+        subGroups view=Signal pop=CHB freq=common
+
+        track CHS_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CHS/CHS_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel CHS_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for CHS_MAF_0.005
+        type bigWig
+        color 0,255,0
+        subGroups view=Signal pop=CHS freq=rare
+
+        track CHS_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CHS/CHS_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel CHS_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for CHS_MAF_0.01
+        type bigWig
+        color 0,255,0
+        subGroups view=Signal pop=CHS freq=low
+
+        track CHS_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CHS/CHS_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel CHS_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for CHS_MAF_0.05
+        type bigWig
+        color 0,255,0
+        subGroups view=Signal pop=CHS freq=common
+
+        track CLM_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CLM/CLM_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel CLM_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for CLM_MAF_0.005
+        type bigWig
+        color 204,51,51
+        subGroups view=Signal pop=CLM freq=rare
+
+        track CLM_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CLM/CLM_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel CLM_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for CLM_MAF_0.01
+        type bigWig
+        color 204,51,51
+        subGroups view=Signal pop=CLM freq=low
+
+        track CLM_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CLM/CLM_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel CLM_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for CLM_MAF_0.05
+        type bigWig
+        color 204,51,51
+        subGroups view=Signal pop=CLM freq=common
+
+        track ESN_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ESN/ESN_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel ESN_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for ESN_MAF_0.005
+        type bigWig
+        color 255,205,0
+        subGroups view=Signal pop=ESN freq=rare
+
+        track ESN_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ESN/ESN_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel ESN_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for ESN_MAF_0.01
+        type bigWig
+        color 255,205,0
+        subGroups view=Signal pop=ESN freq=low
+
+        track ESN_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ESN/ESN_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel ESN_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for ESN_MAF_0.05
+        type bigWig
+        color 255,205,0
+        subGroups view=Signal pop=ESN freq=common
+
+        track FIN_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/FIN/FIN_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel FIN_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for FIN_MAF_0.005
+        type bigWig
+        color 0,235,255
+        subGroups view=Signal pop=FIN freq=rare
+
+        track FIN_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/FIN/FIN_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel FIN_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for FIN_MAF_0.01
+        type bigWig
+        color 0,235,255
+        subGroups view=Signal pop=FIN freq=low
+
+        track FIN_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/FIN/FIN_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel FIN_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for FIN_MAF_0.05
+        type bigWig
+        color 0,235,255
+        subGroups view=Signal pop=FIN freq=common
 
         track GBR_MAF_0.005_sHat
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GBR/GBR_MAF_0.005.bigWig
@@ -962,4 +1907,409 @@ visibility hide
         type bigWig
         color 0,197,205
         subGroups view=Signal pop=GBR freq=common
+
+        track GIH_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GIH/GIH_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel GIH_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for GIH_MAF_0.005
+        type bigWig
+        color 147,0,210
+        subGroups view=Signal pop=GIH freq=rare
+
+        track GIH_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GIH/GIH_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel GIH_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for GIH_MAF_0.01
+        type bigWig
+        color 147,0,210
+        subGroups view=Signal pop=GIH freq=low
+
+        track GIH_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GIH/GIH_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel GIH_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for GIH_MAF_0.05
+        type bigWig
+        color 147,0,210
+        subGroups view=Signal pop=GIH freq=common
+
+        track GWD_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GWD/GWD_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel GWD_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for GWD_MAF_0.005
+        type bigWig
+        color 255,184,0
+        subGroups view=Signal pop=GWD freq=rare
+
+        track GWD_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GWD/GWD_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel GWD_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for GWD_MAF_0.01
+        type bigWig
+        color 255,184,0
+        subGroups view=Signal pop=GWD freq=low
+
+        track GWD_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GWD/GWD_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel GWD_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for GWD_MAF_0.05
+        type bigWig
+        color 255,184,0
+        subGroups view=Signal pop=GWD freq=common
+
+        track IBS_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/IBS/IBS_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel IBS_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for IBS_MAF_0.005
+        type bigWig
+        color 99,148,236
+        subGroups view=Signal pop=IBS freq=rare
+
+        track IBS_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/IBS/IBS_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel IBS_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for IBS_MAF_0.01
+        type bigWig
+        color 99,148,236
+        subGroups view=Signal pop=IBS freq=low
+
+        track IBS_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/IBS/IBS_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel IBS_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for IBS_MAF_0.05
+        type bigWig
+        color 99,148,236
+        subGroups view=Signal pop=IBS freq=common
+
+        track ITU_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ITU/ITU_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel ITU_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for ITU_MAF_0.005
+        type bigWig
+        color 175,47,95
+        subGroups view=Signal pop=ITU freq=rare
+
+        track ITU_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ITU/ITU_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel ITU_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for ITU_MAF_0.01
+        type bigWig
+        color 175,47,95
+        subGroups view=Signal pop=ITU freq=low
+
+        track ITU_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ITU/ITU_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel ITU_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for ITU_MAF_0.05
+        type bigWig
+        color 175,47,95
+        subGroups view=Signal pop=ITU freq=common
+
+        track JPT_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/JPT/JPT_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel JPT_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for JPT_MAF_0.005
+        type bigWig
+        color 0,138,0
+        subGroups view=Signal pop=JPT freq=rare
+
+        track JPT_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/JPT/JPT_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel JPT_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for JPT_MAF_0.01
+        type bigWig
+        color 0,138,0
+        subGroups view=Signal pop=JPT freq=low
+
+        track JPT_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/JPT/JPT_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel JPT_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for JPT_MAF_0.05
+        type bigWig
+        color 0,138,0
+        subGroups view=Signal pop=JPT freq=common
+
+        track KHV_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/KHV/KHV_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel KHV_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for KHV_MAF_0.005
+        type bigWig
+        color 0,204,51
+        subGroups view=Signal pop=KHV freq=rare
+
+        track KHV_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/KHV/KHV_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel KHV_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for KHV_MAF_0.01
+        type bigWig
+        color 0,204,51
+        subGroups view=Signal pop=KHV freq=low
+
+        track KHV_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/KHV/KHV_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel KHV_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for KHV_MAF_0.05
+        type bigWig
+        color 0,204,51
+        subGroups view=Signal pop=KHV freq=common
+
+        track LWK_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/LWK/LWK_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel LWK_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for LWK_MAF_0.005
+        type bigWig
+        color 204,153,51
+        subGroups view=Signal pop=LWK freq=rare
+
+        track LWK_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/LWK/LWK_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel LWK_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for LWK_MAF_0.01
+        type bigWig
+        color 204,153,51
+        subGroups view=Signal pop=LWK freq=low
+
+        track LWK_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/LWK/LWK_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel LWK_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for LWK_MAF_0.05
+        type bigWig
+        color 204,153,51
+        subGroups view=Signal pop=LWK freq=common
+
+        track MSL_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/MSL/MSL_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel MSL_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for MSL_MAF_0.005
+        type bigWig
+        color 224,184,24
+        subGroups view=Signal pop=MSL freq=rare
+
+        track MSL_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/MSL/MSL_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel MSL_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for MSL_MAF_0.01
+        type bigWig
+        color 224,184,24
+        subGroups view=Signal pop=MSL freq=low
+
+        track MSL_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/MSL/MSL_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel MSL_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for MSL_MAF_0.05
+        type bigWig
+        color 224,184,24
+        subGroups view=Signal pop=MSL freq=common
+
+        track MXL_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/MXL/MXL_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel MXL_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for MXL_MAF_0.005
+        type bigWig
+        color 224,0,51
+        subGroups view=Signal pop=MXL freq=rare
+
+        track MXL_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/MXL/MXL_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel MXL_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for MXL_MAF_0.01
+        type bigWig
+        color 224,0,51
+        subGroups view=Signal pop=MXL freq=low
+
+        track MXL_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/MXL/MXL_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel MXL_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for MXL_MAF_0.05
+        type bigWig
+        color 224,0,51
+        subGroups view=Signal pop=MXL freq=common
+
+        track PEL_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PEL/PEL_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel PEL_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for PEL_MAF_0.005
+        type bigWig
+        color 255,0,0
+        subGroups view=Signal pop=PEL freq=rare
+
+        track PEL_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PEL/PEL_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel PEL_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for PEL_MAF_0.01
+        type bigWig
+        color 255,0,0
+        subGroups view=Signal pop=PEL freq=low
+
+        track PEL_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PEL/PEL_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel PEL_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for PEL_MAF_0.05
+        type bigWig
+        color 255,0,0
+        subGroups view=Signal pop=PEL freq=common
+
+        track PJL_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PJL/PJL_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel PJL_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for PJL_MAF_0.005
+        type bigWig
+        color 224,18,136
+        subGroups view=Signal pop=PJL freq=rare
+
+        track PJL_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PJL/PJL_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel PJL_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for PJL_MAF_0.01
+        type bigWig
+        color 224,18,136
+        subGroups view=Signal pop=PJL freq=low
+
+        track PJL_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PJL/PJL_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel PJL_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for PJL_MAF_0.05
+        type bigWig
+        color 224,18,136
+        subGroups view=Signal pop=PJL freq=common
+
+        track PUR_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PUR/PUR_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel PUR_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for PUR_MAF_0.005
+        type bigWig
+        color 204,51,0
+        subGroups view=Signal pop=PUR freq=rare
+
+        track PUR_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PUR/PUR_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel PUR_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for PUR_MAF_0.01
+        type bigWig
+        color 204,51,0
+        subGroups view=Signal pop=PUR freq=low
+
+        track PUR_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PUR/PUR_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel PUR_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for PUR_MAF_0.05
+        type bigWig
+        color 204,51,0
+        subGroups view=Signal pop=PUR freq=common
+
+        track STU_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/STU/STU_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel STU_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for STU_MAF_0.005
+        type bigWig
+        color 255,0,255
+        subGroups view=Signal pop=STU freq=rare
+
+        track STU_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/STU/STU_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel STU_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for STU_MAF_0.01
+        type bigWig
+        color 255,0,255
+        subGroups view=Signal pop=STU freq=low
+
+        track STU_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/STU/STU_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel STU_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for STU_MAF_0.05
+        type bigWig
+        color 255,0,255
+        subGroups view=Signal pop=STU freq=common
+
+        track TSI_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/TSI/TSI_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel TSI_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for TSI_MAF_0.005
+        type bigWig
+        color 0,0,138
+        subGroups view=Signal pop=TSI freq=rare
+
+        track TSI_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/TSI/TSI_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel TSI_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for TSI_MAF_0.01
+        type bigWig
+        color 0,0,138
+        subGroups view=Signal pop=TSI freq=low
+
+        track TSI_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/TSI/TSI_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel TSI_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for TSI_MAF_0.05
+        type bigWig
+        color 0,0,138
+        subGroups view=Signal pop=TSI freq=common
+
+        track YRI_MAF_0.005_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/YRI/YRI_MAF_0.005.bigWig
+        parent pop_signal off
+        shortLabel YRI_MAF_0.005 sHat
+        longLabel Selection coefficient estimates for for YRI_MAF_0.005
+        type bigWig
+        color 255,184,51
+        subGroups view=Signal pop=YRI freq=rare
+
+        track YRI_MAF_0.01_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/YRI/YRI_MAF_0.01.bigWig
+        parent pop_signal off
+        shortLabel YRI_MAF_0.01 sHat
+        longLabel Selection coefficient estimates for for YRI_MAF_0.01
+        type bigWig
+        color 255,184,51
+        subGroups view=Signal pop=YRI freq=low
+
+        track YRI_MAF_0.05_sHat
+        bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/YRI/YRI_MAF_0.05.bigWig
+        parent pop_signal on
+        shortLabel YRI_MAF_0.05 sHat
+        longLabel Selection coefficient estimates for for YRI_MAF_0.05
+        type bigWig
+        color 255,184,51
+        subGroups view=Signal pop=YRI freq=common
 
