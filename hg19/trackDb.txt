@@ -168,7 +168,7 @@ shortLabel shat complete
 subGroup1 pop Ancestry ALL=ALL
 subGroup2 freq Frequency one=MAC_1 two=MAC_2 rare=MAF_0.5% low=MAF_1% common=MAF_5%
 subGroup3 view View Peaks=Peaks Signal=Signal
-subGroup4subtrackColor Color
+ subGroup4 subtrackColor Color
 dimensions dimX=freq dimY=pop
 sortOrder pop=+ freq=+ subtrackColor=+ view=-
 showSubtrackColorOnUi on
@@ -291,7 +291,7 @@ shortLabel shat ancestries
 subGroup1 pop Ancestry AFR=African AMR=Ad_Mixed_American EAS=East_Asian EUR=European SAS=South_Asian
 subGroup2 freq Frequency one=MAC_1 two=MAC_2 rare=MAF_0.5% low=MAF_1% common=MAF_5%
 subGroup3 view View Peaks=Peaks Signal=Signal
-subGroup4subtrackColor Color
+ subGroup4 subtrackColor Color
 dimensions dimX=freq dimY=pop
 sortOrder pop=+ freq=+ subtrackColor=+ view=-
 showSubtrackColorOnUi on
@@ -774,7 +774,7 @@ shortLabel shat populations
 subGroup1 pop Population ACB=African_Caribbeans_in_Barbados ASW=Americans_of_African_Ancestry_in_SW_USA BEB=Bengali_from_Bangladesh CDX=Chinese_Dai_in_Xishuangbanna,_China CEU=Utah_residents_(CEPH),_NW_European_ancestry CHB=Han_Chinese_in_Beijing,_China CHS=Southern_Han_Chinese CLM=Colombians_from_Medellin,_Colombia ESN=Esan_in_Nigeria FIN=Finnish_in_Finland GBR=British_in_England_and_Scotland GIH=Gujarati_Indian_from_Houston,_Texas_ GWD=Gambian_in_Western_Divisions_in_the_Gambia IBS=Iberian_Population_in_Spain ITU=Indian_Telugu_from_the_UK JPT=Japanese_in_Tokyo,_Japan KHV=Kinh_in_Ho_Chi_Minh_City,_Vietnam LWK=Luhya_in_Webuye,_Kenya MSL=Mende_in_Sierra_Leone MXL=Mexican_Ancestry_from_Los_Angeles_USA PEL=Peruvians_from_Lima,_Peru PJL=Punjabi_from_Lahore,_Pakistan PUR=Puerto_Ricans_from_Puerto_Rico STU=Sri_Lankan_Tamil_from_the_UK TSI=Toscani_in_Italia YRI=Yoruba_in_Ibadan,_Nigeria
 subGroup2 freq Frequency rare=MAF_0.5% low=MAF_1% common=MAF_5%
 subGroup3 view View Peaks=Peaks Signal=Signal
-subGroup4subtrackColor Color
+ subGroup4 subtrackColor Color
 dimensions dimX=freq dimY=pop
 sortOrder pop=+ freq=+ subtrackColor=+ view=-
 showSubtrackColorOnUi on
