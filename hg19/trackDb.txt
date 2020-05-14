@@ -418,7 +418,7 @@ visibility full
 
         track ALL_MAC_1_info
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ALL/ALL_MAC_1.bigBed
-        parent all_signal off
+        parent all_peak off
         shortLabel ALL_MAC_1 info
         longLabel Additional information on haplotype blocks for ALL_MAC_1
         type bigBed 3 +
@@ -427,7 +427,7 @@ visibility full
 
         track ALL_MAC_2_info
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ALL/ALL_MAC_2.bigBed
-        parent all_signal off
+        parent all_peak off
         shortLabel ALL_MAC_2 info
         longLabel Additional information on haplotype blocks for ALL_MAC_2
         type bigBed 3 +
@@ -436,7 +436,7 @@ visibility full
 
         track ALL_MAF_0.005_info
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ALL/ALL_MAF_0.005.bigBed
-        parent all_signal off
+        parent all_peak off
         shortLabel ALL_MAF_0.005 info
         longLabel Additional information on haplotype blocks for ALL_MAF_0.005
         type bigBed 3 +
@@ -445,7 +445,7 @@ visibility full
 
         track ALL_MAF_0.01_info
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ALL/ALL_MAF_0.01.bigBed
-        parent all_signal off
+        parent all_peak off
         shortLabel ALL_MAF_0.01 info
         longLabel Additional information on haplotype blocks for ALL_MAF_0.01
         type bigBed 3 +
@@ -454,7 +454,7 @@ visibility full
 
         track ALL_MAF_0.05_info
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ALL/ALL_MAF_0.05.bigBed
-        parent all_signal off
+        parent all_peak off
         shortLabel ALL_MAF_0.05 info
         longLabel Additional information on haplotype blocks for ALL_MAF_0.05
         type bigBed 3 +
