@@ -173,7 +173,7 @@ dimensions dimX=freq dimY=pop
 sortOrder pop=+ freq=+ subtrackColor=+ view=-
 showSubtrackColorOnUi on
 dragAndDrop subTracks
-visibility full
+visibility hide
 
     track all_peak
     parent sHat_all
