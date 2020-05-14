@@ -418,7 +418,7 @@ visibility full
 
         track ALL_MAC_1_info
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ALL/ALL_MAC_1.bigBed
-        parent ancestry_peak off
+        parent all_signal off
         shortLabel ALL_MAC_1 info
         longLabel Additional information on haplotype blocks for ALL_MAC_1
         type bigBed 3 +
@@ -427,7 +427,7 @@ visibility full
 
         track ALL_MAC_2_info
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ALL/ALL_MAC_2.bigBed
-        parent ancestry_peak off
+        parent all_signal off
         shortLabel ALL_MAC_2 info
         longLabel Additional information on haplotype blocks for ALL_MAC_2
         type bigBed 3 +
@@ -436,7 +436,7 @@ visibility full
 
         track ALL_MAF_0.005_info
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ALL/ALL_MAF_0.005.bigBed
-        parent ancestry_peak off
+        parent all_signal off
         shortLabel ALL_MAF_0.005 info
         longLabel Additional information on haplotype blocks for ALL_MAF_0.005
         type bigBed 3 +
@@ -445,7 +445,7 @@ visibility full
 
         track ALL_MAF_0.01_info
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ALL/ALL_MAF_0.01.bigBed
-        parent ancestry_peak off
+        parent all_signal off
         shortLabel ALL_MAF_0.01 info
         longLabel Additional information on haplotype blocks for ALL_MAF_0.01
         type bigBed 3 +
@@ -454,7 +454,7 @@ visibility full
 
         track ALL_MAF_0.05_info
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ALL/ALL_MAF_0.05.bigBed
-        parent ancestry_peak off
+        parent all_signal off
         shortLabel ALL_MAF_0.05 info
         longLabel Additional information on haplotype blocks for ALL_MAF_0.05
         type bigBed 3 +
@@ -473,7 +473,7 @@ visibility full
 
         track ALL_MAC_1_sHat
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ALL/ALL_MAC_1.bigWig
-        parent ancestry_signal off
+        parent all_signal off
         shortLabel ALL_MAC_1 sHat
         longLabel Selection coefficient estimates for for ALL_MAC_1
         type bigWig
@@ -482,7 +482,7 @@ visibility full
 
         track ALL_MAC_2_sHat
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ALL/ALL_MAC_2.bigWig
-        parent ancestry_signal off
+        parent all_signal off
         shortLabel ALL_MAC_2 sHat
         longLabel Selection coefficient estimates for for ALL_MAC_2
         type bigWig
@@ -491,7 +491,7 @@ visibility full
 
         track ALL_MAF_0.005_sHat
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ALL/ALL_MAF_0.005.bigWig
-        parent ancestry_signal off
+        parent all_signal off
         shortLabel ALL_MAF_0.005 sHat
         longLabel Selection coefficient estimates for for ALL_MAF_0.005
         type bigWig
@@ -500,7 +500,7 @@ visibility full
 
         track ALL_MAF_0.01_sHat
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ALL/ALL_MAF_0.01.bigWig
-        parent ancestry_signal off
+        parent all_signal off
         shortLabel ALL_MAF_0.01 sHat
         longLabel Selection coefficient estimates for for ALL_MAF_0.01
         type bigWig
@@ -509,12 +509,13 @@ visibility full
 
         track ALL_MAF_0.05_sHat
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ALL/ALL_MAF_0.05.bigWig
-        parent ancestry_signal on
+        parent all_signal on
         shortLabel ALL_MAF_0.05 sHat
         longLabel Selection coefficient estimates for for ALL_MAF_0.05
         type bigWig
         color 0,0,0
         subGroups view=Signal pop=ALL freq=common
+
 
 track sHat_ancestries
 compositeTrack on
