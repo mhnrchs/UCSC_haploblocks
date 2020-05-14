@@ -1,5 +1,5 @@
 hub haploblocks
-shortLabel selection coeff
-longLabel Selection coefficient estimates of the humang genome based on SNP information from the 1000 genomes project
+shortLabel Selection coefficient estimates
+longLabel Selection coefficient estimates of the humane genome based on SNPs from the 1000 Genomes Project
 genomesFile genomes.txt
 email mhenrichs at techfak dot de
