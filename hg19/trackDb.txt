@@ -296,7 +296,7 @@ dimensions dimX=freq dimY=pop
 sortOrder pop=+ freq=+ subtrackColor=+ view=-
 showSubtrackColorOnUi on
 dragAndDrop subTracks
-visbility full
+visibility full
 
     track ancestry_peak
     parent sHat_ancestries
