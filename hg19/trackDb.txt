@@ -104,6 +104,14 @@ maxHeightPixels 256:128:16
     shortLabel SAS sHat
     longLabel Selection coefficient estimates for SAS (South Asian) super population in 1000 genomes project, 489 individuals
     bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/100000/SAS_100000.bw
+    
+    track ACB_w100000
+    parent super_w100000
+    color 255,153,0
+    type bigWig
+    shortLabel ACB sHat
+    longLabel Selection coefficient estimates for ACB (African Caribbeans in Barbados) super population in 1000 genomes project, 96 individuals
+    bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/100000/ACB_100000.bw
 
 
 track super_w200000
@@ -235,6 +243,7 @@ visibility hide
     autoScale group
     alwaysZero on
     maxHeightPixels 256:128:16
+    windowingFunction maximum
     visibility full
 
         track ALL_MAC_1_sHat
@@ -538,6 +547,7 @@ visibility full
     autoScale group
     alwaysZero on
     maxHeightPixels 256:128:16
+    windowingFunction maximum
     visibility full
 
         track AFR_MAC_1_sHat
@@ -1498,6 +1508,7 @@ visibility hide
     autoScale group
     alwaysZero on
     maxHeightPixels 256:128:16
+    windowingFunction maximum
     visibility full
 
         track ACB_MAF_0.005_sHat
