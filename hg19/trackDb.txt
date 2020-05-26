@@ -250,7 +250,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ALL/ALL_MAC_1.bigWig
         parent all_signal off
         shortLabel ALL_MAC_1 sHat
-        longLabel Selection coefficient estimates for for ALL_MAC_1
+        longLabel Selection coefficient estimates for ALL_MAC_1
         type bigWig
         color 0,0,0
         subGroups view=Signal pop=ALL freq=one
@@ -259,7 +259,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ALL/ALL_MAC_2.bigWig
         parent all_signal off
         shortLabel ALL_MAC_2 sHat
-        longLabel Selection coefficient estimates for for ALL_MAC_2
+        longLabel Selection coefficient estimates for ALL_MAC_2
         type bigWig
         color 0,0,0
         subGroups view=Signal pop=ALL freq=two
@@ -268,7 +268,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ALL/ALL_MAF_0.005.bigWig
         parent all_signal off
         shortLabel ALL_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for ALL_MAF_0.005
+        longLabel Selection coefficient estimates for ALL_MAF_0.005
         type bigWig
         color 0,0,0
         subGroups view=Signal pop=ALL freq=rare
@@ -277,7 +277,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ALL/ALL_MAF_0.01.bigWig
         parent all_signal off
         shortLabel ALL_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for ALL_MAF_0.01
+        longLabel Selection coefficient estimates for ALL_MAF_0.01
         type bigWig
         color 0,0,0
         subGroups view=Signal pop=ALL freq=low
@@ -286,7 +286,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ALL/ALL_MAF_0.05.bigWig
         parent all_signal on
         shortLabel ALL_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for ALL_MAF_0.05
+        longLabel Selection coefficient estimates for ALL_MAF_0.05
         type bigWig
         color 0,0,0
         subGroups view=Signal pop=ALL freq=common
@@ -554,7 +554,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AFR/AFR_MAC_1.bigWig
         parent ancestry_signal off
         shortLabel AFR_MAC_1 sHat
-        longLabel Selection coefficient estimates for for AFR_MAC_1
+        longLabel Selection coefficient estimates for AFR_MAC_1
         type bigWig
         color 255,235,51
         subGroups view=Signal pop=AFR freq=one
@@ -563,7 +563,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AFR/AFR_MAC_2.bigWig
         parent ancestry_signal off
         shortLabel AFR_MAC_2 sHat
-        longLabel Selection coefficient estimates for for AFR_MAC_2
+        longLabel Selection coefficient estimates for AFR_MAC_2
         type bigWig
         color 255,235,51
         subGroups view=Signal pop=AFR freq=two
@@ -572,7 +572,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AFR/AFR_MAF_0.005.bigWig
         parent ancestry_signal off
         shortLabel AFR_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for AFR_MAF_0.005
+        longLabel Selection coefficient estimates for AFR_MAF_0.005
         type bigWig
         color 255,235,51
         subGroups view=Signal pop=AFR freq=rare
@@ -581,7 +581,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AFR/AFR_MAF_0.01.bigWig
         parent ancestry_signal off
         shortLabel AFR_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for AFR_MAF_0.01
+        longLabel Selection coefficient estimates for AFR_MAF_0.01
         type bigWig
         color 255,235,51
         subGroups view=Signal pop=AFR freq=low
@@ -590,7 +590,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AFR/AFR_MAF_0.05.bigWig
         parent ancestry_signal on
         shortLabel AFR_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for AFR_MAF_0.05
+        longLabel Selection coefficient estimates for AFR_MAF_0.05
         type bigWig
         color 255,235,51
         subGroups view=Signal pop=AFR freq=common
@@ -599,7 +599,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AMR/AMR_MAC_1.bigWig
         parent ancestry_signal off
         shortLabel AMR_MAC_1 sHat
-        longLabel Selection coefficient estimates for for AMR_MAC_1
+        longLabel Selection coefficient estimates for AMR_MAC_1
         type bigWig
         color 255,60,60
         subGroups view=Signal pop=AMR freq=one
@@ -608,7 +608,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AMR/AMR_MAC_2.bigWig
         parent ancestry_signal off
         shortLabel AMR_MAC_2 sHat
-        longLabel Selection coefficient estimates for for AMR_MAC_2
+        longLabel Selection coefficient estimates for AMR_MAC_2
         type bigWig
         color 255,60,60
         subGroups view=Signal pop=AMR freq=two
@@ -617,7 +617,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AMR/AMR_MAF_0.005.bigWig
         parent ancestry_signal off
         shortLabel AMR_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for AMR_MAF_0.005
+        longLabel Selection coefficient estimates for AMR_MAF_0.005
         type bigWig
         color 255,60,60
         subGroups view=Signal pop=AMR freq=rare
@@ -626,7 +626,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AMR/AMR_MAF_0.01.bigWig
         parent ancestry_signal off
         shortLabel AMR_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for AMR_MAF_0.01
+        longLabel Selection coefficient estimates for AMR_MAF_0.01
         type bigWig
         color 255,60,60
         subGroups view=Signal pop=AMR freq=low
@@ -635,7 +635,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/AMR/AMR_MAF_0.05.bigWig
         parent ancestry_signal on
         shortLabel AMR_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for AMR_MAF_0.05
+        longLabel Selection coefficient estimates for AMR_MAF_0.05
         type bigWig
         color 255,60,60
         subGroups view=Signal pop=AMR freq=common
@@ -644,7 +644,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/EAS/EAS_MAC_1.bigWig
         parent ancestry_signal off
         shortLabel EAS_MAC_1 sHat
-        longLabel Selection coefficient estimates for for EAS_MAC_1
+        longLabel Selection coefficient estimates for EAS_MAC_1
         type bigWig
         color 172,255,51
         subGroups view=Signal pop=EAS freq=one
@@ -653,7 +653,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/EAS/EAS_MAC_2.bigWig
         parent ancestry_signal off
         shortLabel EAS_MAC_2 sHat
-        longLabel Selection coefficient estimates for for EAS_MAC_2
+        longLabel Selection coefficient estimates for EAS_MAC_2
         type bigWig
         color 172,255,51
         subGroups view=Signal pop=EAS freq=two
@@ -662,7 +662,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/EAS/EAS_MAF_0.005.bigWig
         parent ancestry_signal off
         shortLabel EAS_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for EAS_MAF_0.005
+        longLabel Selection coefficient estimates for EAS_MAF_0.005
         type bigWig
         color 172,255,51
         subGroups view=Signal pop=EAS freq=rare
@@ -671,7 +671,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/EAS/EAS_MAF_0.01.bigWig
         parent ancestry_signal off
         shortLabel EAS_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for EAS_MAF_0.01
+        longLabel Selection coefficient estimates for EAS_MAF_0.01
         type bigWig
         color 172,255,51
         subGroups view=Signal pop=EAS freq=low
@@ -680,7 +680,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/EAS/EAS_MAF_0.05.bigWig
         parent ancestry_signal on
         shortLabel EAS_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for EAS_MAF_0.05
+        longLabel Selection coefficient estimates for EAS_MAF_0.05
         type bigWig
         color 172,255,51
         subGroups view=Signal pop=EAS freq=common
@@ -689,7 +689,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/EUR/EUR_MAC_1.bigWig
         parent ancestry_signal off
         shortLabel EUR_MAC_1 sHat
-        longLabel Selection coefficient estimates for for EUR_MAC_1
+        longLabel Selection coefficient estimates for EUR_MAC_1
         type bigWig
         color 99,235,255
         subGroups view=Signal pop=EUR freq=one
@@ -698,7 +698,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/EUR/EUR_MAC_2.bigWig
         parent ancestry_signal off
         shortLabel EUR_MAC_2 sHat
-        longLabel Selection coefficient estimates for for EUR_MAC_2
+        longLabel Selection coefficient estimates for EUR_MAC_2
         type bigWig
         color 99,235,255
         subGroups view=Signal pop=EUR freq=two
@@ -707,7 +707,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/EUR/EUR_MAF_0.005.bigWig
         parent ancestry_signal off
         shortLabel EUR_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for EUR_MAF_0.005
+        longLabel Selection coefficient estimates for EUR_MAF_0.005
         type bigWig
         color 99,235,255
         subGroups view=Signal pop=EUR freq=rare
@@ -716,7 +716,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/EUR/EUR_MAF_0.01.bigWig
         parent ancestry_signal off
         shortLabel EUR_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for EUR_MAF_0.01
+        longLabel Selection coefficient estimates for EUR_MAF_0.01
         type bigWig
         color 99,235,255
         subGroups view=Signal pop=EUR freq=low
@@ -725,7 +725,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/EUR/EUR_MAF_0.05.bigWig
         parent ancestry_signal on
         shortLabel EUR_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for EUR_MAF_0.05
+        longLabel Selection coefficient estimates for EUR_MAF_0.05
         type bigWig
         color 99,235,255
         subGroups view=Signal pop=EUR freq=common
@@ -734,7 +734,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/SAS/SAS_MAC_1.bigWig
         parent ancestry_signal off
         shortLabel SAS_MAC_1 sHat
-        longLabel Selection coefficient estimates for for SAS_MAC_1
+        longLabel Selection coefficient estimates for SAS_MAC_1
         type bigWig
         color 255,47,255
         subGroups view=Signal pop=SAS freq=one
@@ -743,7 +743,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/SAS/SAS_MAC_2.bigWig
         parent ancestry_signal off
         shortLabel SAS_MAC_2 sHat
-        longLabel Selection coefficient estimates for for SAS_MAC_2
+        longLabel Selection coefficient estimates for SAS_MAC_2
         type bigWig
         color 255,47,255
         subGroups view=Signal pop=SAS freq=two
@@ -752,7 +752,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/SAS/SAS_MAF_0.005.bigWig
         parent ancestry_signal off
         shortLabel SAS_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for SAS_MAF_0.005
+        longLabel Selection coefficient estimates for SAS_MAF_0.005
         type bigWig
         color 255,47,255
         subGroups view=Signal pop=SAS freq=rare
@@ -761,7 +761,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/SAS/SAS_MAF_0.01.bigWig
         parent ancestry_signal off
         shortLabel SAS_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for SAS_MAF_0.01
+        longLabel Selection coefficient estimates for SAS_MAF_0.01
         type bigWig
         color 255,47,255
         subGroups view=Signal pop=SAS freq=low
@@ -770,7 +770,7 @@ visibility full
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/SAS/SAS_MAF_0.05.bigWig
         parent ancestry_signal on
         shortLabel SAS_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for SAS_MAF_0.05
+        longLabel Selection coefficient estimates for SAS_MAF_0.05
         type bigWig
         color 255,47,255
         subGroups view=Signal pop=SAS freq=common
@@ -1515,7 +1515,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ACB/ACB_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel ACB_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for ACB_MAF_0.005
+        longLabel Selection coefficient estimates for ACB_MAF_0.005
         type bigWig
         color 255,153,0
         subGroups view=Signal pop=ACB freq=rare
@@ -1524,7 +1524,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ACB/ACB_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel ACB_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for ACB_MAF_0.01
+        longLabel Selection coefficient estimates for ACB_MAF_0.01
         type bigWig
         color 255,153,0
         subGroups view=Signal pop=ACB freq=low
@@ -1533,7 +1533,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ACB/ACB_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel ACB_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for ACB_MAF_0.05
+        longLabel Selection coefficient estimates for ACB_MAF_0.05
         type bigWig
         color 255,153,0
         subGroups view=Signal pop=ACB freq=common
@@ -1542,7 +1542,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ASW/ASW_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel ASW_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for ASW_MAF_0.005
+        longLabel Selection coefficient estimates for ASW_MAF_0.005
         type bigWig
         color 204,102,0
         subGroups view=Signal pop=ASW freq=rare
@@ -1551,7 +1551,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ASW/ASW_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel ASW_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for ASW_MAF_0.01
+        longLabel Selection coefficient estimates for ASW_MAF_0.01
         type bigWig
         color 204,102,0
         subGroups view=Signal pop=ASW freq=low
@@ -1560,7 +1560,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ASW/ASW_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel ASW_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for ASW_MAF_0.05
+        longLabel Selection coefficient estimates for ASW_MAF_0.05
         type bigWig
         color 204,102,0
         subGroups view=Signal pop=ASW freq=common
@@ -1569,7 +1569,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/BEB/BEB_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel BEB_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for BEB_MAF_0.005
+        longLabel Selection coefficient estimates for BEB_MAF_0.005
         type bigWig
         color 138,0,138
         subGroups view=Signal pop=BEB freq=rare
@@ -1578,7 +1578,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/BEB/BEB_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel BEB_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for BEB_MAF_0.01
+        longLabel Selection coefficient estimates for BEB_MAF_0.01
         type bigWig
         color 138,0,138
         subGroups view=Signal pop=BEB freq=low
@@ -1587,7 +1587,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/BEB/BEB_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel BEB_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for BEB_MAF_0.05
+        longLabel Selection coefficient estimates for BEB_MAF_0.05
         type bigWig
         color 138,0,138
         subGroups view=Signal pop=BEB freq=common
@@ -1596,7 +1596,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CDX/CDX_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel CDX_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for CDX_MAF_0.005
+        longLabel Selection coefficient estimates for CDX_MAF_0.005
         type bigWig
         color 51,153,0
         subGroups view=Signal pop=CDX freq=rare
@@ -1605,7 +1605,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CDX/CDX_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel CDX_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for CDX_MAF_0.01
+        longLabel Selection coefficient estimates for CDX_MAF_0.01
         type bigWig
         color 51,153,0
         subGroups view=Signal pop=CDX freq=low
@@ -1614,7 +1614,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CDX/CDX_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel CDX_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for CDX_MAF_0.05
+        longLabel Selection coefficient estimates for CDX_MAF_0.05
         type bigWig
         color 51,153,0
         subGroups view=Signal pop=CDX freq=common
@@ -1623,7 +1623,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CEU/CEU_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel CEU_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for CEU_MAF_0.005
+        longLabel Selection coefficient estimates for CEU_MAF_0.005
         type bigWig
         color 0,0,255
         subGroups view=Signal pop=CEU freq=rare
@@ -1632,7 +1632,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CEU/CEU_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel CEU_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for CEU_MAF_0.01
+        longLabel Selection coefficient estimates for CEU_MAF_0.01
         type bigWig
         color 0,0,255
         subGroups view=Signal pop=CEU freq=low
@@ -1641,7 +1641,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CEU/CEU_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel CEU_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for CEU_MAF_0.05
+        longLabel Selection coefficient estimates for CEU_MAF_0.05
         type bigWig
         color 0,0,255
         subGroups view=Signal pop=CEU freq=common
@@ -1650,7 +1650,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CHB/CHB_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel CHB_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for CHB_MAF_0.005
+        longLabel Selection coefficient estimates for CHB_MAF_0.005
         type bigWig
         color 172,205,0
         subGroups view=Signal pop=CHB freq=rare
@@ -1659,7 +1659,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CHB/CHB_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel CHB_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for CHB_MAF_0.01
+        longLabel Selection coefficient estimates for CHB_MAF_0.01
         type bigWig
         color 172,205,0
         subGroups view=Signal pop=CHB freq=low
@@ -1668,7 +1668,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CHB/CHB_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel CHB_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for CHB_MAF_0.05
+        longLabel Selection coefficient estimates for CHB_MAF_0.05
         type bigWig
         color 172,205,0
         subGroups view=Signal pop=CHB freq=common
@@ -1677,7 +1677,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CHS/CHS_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel CHS_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for CHS_MAF_0.005
+        longLabel Selection coefficient estimates for CHS_MAF_0.005
         type bigWig
         color 0,255,0
         subGroups view=Signal pop=CHS freq=rare
@@ -1686,7 +1686,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CHS/CHS_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel CHS_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for CHS_MAF_0.01
+        longLabel Selection coefficient estimates for CHS_MAF_0.01
         type bigWig
         color 0,255,0
         subGroups view=Signal pop=CHS freq=low
@@ -1695,7 +1695,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CHS/CHS_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel CHS_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for CHS_MAF_0.05
+        longLabel Selection coefficient estimates for CHS_MAF_0.05
         type bigWig
         color 0,255,0
         subGroups view=Signal pop=CHS freq=common
@@ -1704,7 +1704,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CLM/CLM_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel CLM_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for CLM_MAF_0.005
+        longLabel Selection coefficient estimates for CLM_MAF_0.005
         type bigWig
         color 204,51,51
         subGroups view=Signal pop=CLM freq=rare
@@ -1713,7 +1713,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CLM/CLM_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel CLM_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for CLM_MAF_0.01
+        longLabel Selection coefficient estimates for CLM_MAF_0.01
         type bigWig
         color 204,51,51
         subGroups view=Signal pop=CLM freq=low
@@ -1722,7 +1722,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/CLM/CLM_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel CLM_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for CLM_MAF_0.05
+        longLabel Selection coefficient estimates for CLM_MAF_0.05
         type bigWig
         color 204,51,51
         subGroups view=Signal pop=CLM freq=common
@@ -1731,7 +1731,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ESN/ESN_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel ESN_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for ESN_MAF_0.005
+        longLabel Selection coefficient estimates for ESN_MAF_0.005
         type bigWig
         color 255,205,0
         subGroups view=Signal pop=ESN freq=rare
@@ -1740,7 +1740,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ESN/ESN_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel ESN_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for ESN_MAF_0.01
+        longLabel Selection coefficient estimates for ESN_MAF_0.01
         type bigWig
         color 255,205,0
         subGroups view=Signal pop=ESN freq=low
@@ -1749,7 +1749,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ESN/ESN_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel ESN_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for ESN_MAF_0.05
+        longLabel Selection coefficient estimates for ESN_MAF_0.05
         type bigWig
         color 255,205,0
         subGroups view=Signal pop=ESN freq=common
@@ -1758,7 +1758,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/FIN/FIN_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel FIN_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for FIN_MAF_0.005
+        longLabel Selection coefficient estimates for FIN_MAF_0.005
         type bigWig
         color 0,235,255
         subGroups view=Signal pop=FIN freq=rare
@@ -1767,7 +1767,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/FIN/FIN_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel FIN_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for FIN_MAF_0.01
+        longLabel Selection coefficient estimates for FIN_MAF_0.01
         type bigWig
         color 0,235,255
         subGroups view=Signal pop=FIN freq=low
@@ -1776,7 +1776,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/FIN/FIN_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel FIN_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for FIN_MAF_0.05
+        longLabel Selection coefficient estimates for FIN_MAF_0.05
         type bigWig
         color 0,235,255
         subGroups view=Signal pop=FIN freq=common
@@ -1785,7 +1785,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GBR/GBR_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel GBR_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for GBR_MAF_0.005
+        longLabel Selection coefficient estimates for GBR_MAF_0.005
         type bigWig
         color 0,197,205
         subGroups view=Signal pop=GBR freq=rare
@@ -1794,7 +1794,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GBR/GBR_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel GBR_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for GBR_MAF_0.01
+        longLabel Selection coefficient estimates for GBR_MAF_0.01
         type bigWig
         color 0,197,205
         subGroups view=Signal pop=GBR freq=low
@@ -1803,7 +1803,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GBR/GBR_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel GBR_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for GBR_MAF_0.05
+        longLabel Selection coefficient estimates for GBR_MAF_0.05
         type bigWig
         color 0,197,205
         subGroups view=Signal pop=GBR freq=common
@@ -1812,7 +1812,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GIH/GIH_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel GIH_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for GIH_MAF_0.005
+        longLabel Selection coefficient estimates for GIH_MAF_0.005
         type bigWig
         color 147,0,210
         subGroups view=Signal pop=GIH freq=rare
@@ -1821,7 +1821,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GIH/GIH_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel GIH_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for GIH_MAF_0.01
+        longLabel Selection coefficient estimates for GIH_MAF_0.01
         type bigWig
         color 147,0,210
         subGroups view=Signal pop=GIH freq=low
@@ -1830,7 +1830,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GIH/GIH_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel GIH_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for GIH_MAF_0.05
+        longLabel Selection coefficient estimates for GIH_MAF_0.05
         type bigWig
         color 147,0,210
         subGroups view=Signal pop=GIH freq=common
@@ -1839,7 +1839,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GWD/GWD_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel GWD_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for GWD_MAF_0.005
+        longLabel Selection coefficient estimates for GWD_MAF_0.005
         type bigWig
         color 255,184,0
         subGroups view=Signal pop=GWD freq=rare
@@ -1848,7 +1848,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GWD/GWD_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel GWD_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for GWD_MAF_0.01
+        longLabel Selection coefficient estimates for GWD_MAF_0.01
         type bigWig
         color 255,184,0
         subGroups view=Signal pop=GWD freq=low
@@ -1857,7 +1857,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/GWD/GWD_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel GWD_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for GWD_MAF_0.05
+        longLabel Selection coefficient estimates for GWD_MAF_0.05
         type bigWig
         color 255,184,0
         subGroups view=Signal pop=GWD freq=common
@@ -1866,7 +1866,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/IBS/IBS_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel IBS_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for IBS_MAF_0.005
+        longLabel Selection coefficient estimates for IBS_MAF_0.005
         type bigWig
         color 99,148,236
         subGroups view=Signal pop=IBS freq=rare
@@ -1875,7 +1875,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/IBS/IBS_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel IBS_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for IBS_MAF_0.01
+        longLabel Selection coefficient estimates for IBS_MAF_0.01
         type bigWig
         color 99,148,236
         subGroups view=Signal pop=IBS freq=low
@@ -1884,7 +1884,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/IBS/IBS_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel IBS_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for IBS_MAF_0.05
+        longLabel Selection coefficient estimates for IBS_MAF_0.05
         type bigWig
         color 99,148,236
         subGroups view=Signal pop=IBS freq=common
@@ -1893,7 +1893,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ITU/ITU_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel ITU_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for ITU_MAF_0.005
+        longLabel Selection coefficient estimates for ITU_MAF_0.005
         type bigWig
         color 175,47,95
         subGroups view=Signal pop=ITU freq=rare
@@ -1902,7 +1902,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ITU/ITU_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel ITU_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for ITU_MAF_0.01
+        longLabel Selection coefficient estimates for ITU_MAF_0.01
         type bigWig
         color 175,47,95
         subGroups view=Signal pop=ITU freq=low
@@ -1911,7 +1911,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/ITU/ITU_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel ITU_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for ITU_MAF_0.05
+        longLabel Selection coefficient estimates for ITU_MAF_0.05
         type bigWig
         color 175,47,95
         subGroups view=Signal pop=ITU freq=common
@@ -1920,7 +1920,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/JPT/JPT_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel JPT_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for JPT_MAF_0.005
+        longLabel Selection coefficient estimates for JPT_MAF_0.005
         type bigWig
         color 0,138,0
         subGroups view=Signal pop=JPT freq=rare
@@ -1929,7 +1929,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/JPT/JPT_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel JPT_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for JPT_MAF_0.01
+        longLabel Selection coefficient estimates for JPT_MAF_0.01
         type bigWig
         color 0,138,0
         subGroups view=Signal pop=JPT freq=low
@@ -1938,7 +1938,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/JPT/JPT_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel JPT_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for JPT_MAF_0.05
+        longLabel Selection coefficient estimates for JPT_MAF_0.05
         type bigWig
         color 0,138,0
         subGroups view=Signal pop=JPT freq=common
@@ -1947,7 +1947,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/KHV/KHV_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel KHV_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for KHV_MAF_0.005
+        longLabel Selection coefficient estimates for KHV_MAF_0.005
         type bigWig
         color 0,204,51
         subGroups view=Signal pop=KHV freq=rare
@@ -1956,7 +1956,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/KHV/KHV_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel KHV_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for KHV_MAF_0.01
+        longLabel Selection coefficient estimates for KHV_MAF_0.01
         type bigWig
         color 0,204,51
         subGroups view=Signal pop=KHV freq=low
@@ -1965,7 +1965,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/KHV/KHV_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel KHV_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for KHV_MAF_0.05
+        longLabel Selection coefficient estimates for KHV_MAF_0.05
         type bigWig
         color 0,204,51
         subGroups view=Signal pop=KHV freq=common
@@ -1974,7 +1974,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/LWK/LWK_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel LWK_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for LWK_MAF_0.005
+        longLabel Selection coefficient estimates for LWK_MAF_0.005
         type bigWig
         color 204,153,51
         subGroups view=Signal pop=LWK freq=rare
@@ -1983,7 +1983,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/LWK/LWK_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel LWK_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for LWK_MAF_0.01
+        longLabel Selection coefficient estimates for LWK_MAF_0.01
         type bigWig
         color 204,153,51
         subGroups view=Signal pop=LWK freq=low
@@ -1992,7 +1992,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/LWK/LWK_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel LWK_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for LWK_MAF_0.05
+        longLabel Selection coefficient estimates for LWK_MAF_0.05
         type bigWig
         color 204,153,51
         subGroups view=Signal pop=LWK freq=common
@@ -2001,7 +2001,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/MSL/MSL_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel MSL_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for MSL_MAF_0.005
+        longLabel Selection coefficient estimates for MSL_MAF_0.005
         type bigWig
         color 224,184,24
         subGroups view=Signal pop=MSL freq=rare
@@ -2010,7 +2010,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/MSL/MSL_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel MSL_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for MSL_MAF_0.01
+        longLabel Selection coefficient estimates for MSL_MAF_0.01
         type bigWig
         color 224,184,24
         subGroups view=Signal pop=MSL freq=low
@@ -2019,7 +2019,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/MSL/MSL_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel MSL_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for MSL_MAF_0.05
+        longLabel Selection coefficient estimates for MSL_MAF_0.05
         type bigWig
         color 224,184,24
         subGroups view=Signal pop=MSL freq=common
@@ -2028,7 +2028,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/MXL/MXL_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel MXL_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for MXL_MAF_0.005
+        longLabel Selection coefficient estimates for MXL_MAF_0.005
         type bigWig
         color 224,0,51
         subGroups view=Signal pop=MXL freq=rare
@@ -2037,7 +2037,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/MXL/MXL_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel MXL_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for MXL_MAF_0.01
+        longLabel Selection coefficient estimates for MXL_MAF_0.01
         type bigWig
         color 224,0,51
         subGroups view=Signal pop=MXL freq=low
@@ -2046,7 +2046,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/MXL/MXL_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel MXL_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for MXL_MAF_0.05
+        longLabel Selection coefficient estimates for MXL_MAF_0.05
         type bigWig
         color 224,0,51
         subGroups view=Signal pop=MXL freq=common
@@ -2055,7 +2055,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PEL/PEL_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel PEL_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for PEL_MAF_0.005
+        longLabel Selection coefficient estimates for PEL_MAF_0.005
         type bigWig
         color 255,0,0
         subGroups view=Signal pop=PEL freq=rare
@@ -2064,7 +2064,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PEL/PEL_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel PEL_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for PEL_MAF_0.01
+        longLabel Selection coefficient estimates for PEL_MAF_0.01
         type bigWig
         color 255,0,0
         subGroups view=Signal pop=PEL freq=low
@@ -2073,7 +2073,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PEL/PEL_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel PEL_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for PEL_MAF_0.05
+        longLabel Selection coefficient estimates for PEL_MAF_0.05
         type bigWig
         color 255,0,0
         subGroups view=Signal pop=PEL freq=common
@@ -2082,7 +2082,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PJL/PJL_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel PJL_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for PJL_MAF_0.005
+        longLabel Selection coefficient estimates for PJL_MAF_0.005
         type bigWig
         color 224,18,136
         subGroups view=Signal pop=PJL freq=rare
@@ -2091,7 +2091,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PJL/PJL_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel PJL_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for PJL_MAF_0.01
+        longLabel Selection coefficient estimates for PJL_MAF_0.01
         type bigWig
         color 224,18,136
         subGroups view=Signal pop=PJL freq=low
@@ -2100,7 +2100,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PJL/PJL_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel PJL_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for PJL_MAF_0.05
+        longLabel Selection coefficient estimates for PJL_MAF_0.05
         type bigWig
         color 224,18,136
         subGroups view=Signal pop=PJL freq=common
@@ -2109,7 +2109,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PUR/PUR_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel PUR_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for PUR_MAF_0.005
+        longLabel Selection coefficient estimates for PUR_MAF_0.005
         type bigWig
         color 204,51,0
         subGroups view=Signal pop=PUR freq=rare
@@ -2118,7 +2118,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PUR/PUR_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel PUR_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for PUR_MAF_0.01
+        longLabel Selection coefficient estimates for PUR_MAF_0.01
         type bigWig
         color 204,51,0
         subGroups view=Signal pop=PUR freq=low
@@ -2127,7 +2127,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/PUR/PUR_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel PUR_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for PUR_MAF_0.05
+        longLabel Selection coefficient estimates for PUR_MAF_0.05
         type bigWig
         color 204,51,0
         subGroups view=Signal pop=PUR freq=common
@@ -2136,7 +2136,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/STU/STU_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel STU_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for STU_MAF_0.005
+        longLabel Selection coefficient estimates for STU_MAF_0.005
         type bigWig
         color 255,0,255
         subGroups view=Signal pop=STU freq=rare
@@ -2145,7 +2145,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/STU/STU_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel STU_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for STU_MAF_0.01
+        longLabel Selection coefficient estimates for STU_MAF_0.01
         type bigWig
         color 255,0,255
         subGroups view=Signal pop=STU freq=low
@@ -2154,7 +2154,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/STU/STU_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel STU_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for STU_MAF_0.05
+        longLabel Selection coefficient estimates for STU_MAF_0.05
         type bigWig
         color 255,0,255
         subGroups view=Signal pop=STU freq=common
@@ -2163,7 +2163,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/TSI/TSI_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel TSI_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for TSI_MAF_0.005
+        longLabel Selection coefficient estimates for TSI_MAF_0.005
         type bigWig
         color 0,0,138
         subGroups view=Signal pop=TSI freq=rare
@@ -2172,7 +2172,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/TSI/TSI_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel TSI_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for TSI_MAF_0.01
+        longLabel Selection coefficient estimates for TSI_MAF_0.01
         type bigWig
         color 0,0,138
         subGroups view=Signal pop=TSI freq=low
@@ -2181,7 +2181,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/TSI/TSI_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel TSI_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for TSI_MAF_0.05
+        longLabel Selection coefficient estimates for TSI_MAF_0.05
         type bigWig
         color 0,0,138
         subGroups view=Signal pop=TSI freq=common
@@ -2190,7 +2190,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/YRI/YRI_MAF_0.005.bigWig
         parent pop_signal off
         shortLabel YRI_MAF_0.005 sHat
-        longLabel Selection coefficient estimates for for YRI_MAF_0.005
+        longLabel Selection coefficient estimates for YRI_MAF_0.005
         type bigWig
         color 255,184,51
         subGroups view=Signal pop=YRI freq=rare
@@ -2199,7 +2199,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/YRI/YRI_MAF_0.01.bigWig
         parent pop_signal off
         shortLabel YRI_MAF_0.01 sHat
-        longLabel Selection coefficient estimates for for YRI_MAF_0.01
+        longLabel Selection coefficient estimates for YRI_MAF_0.01
         type bigWig
         color 255,184,51
         subGroups view=Signal pop=YRI freq=low
@@ -2208,7 +2208,7 @@ visibility hide
         bigDataUrl https://raw.githubusercontent.com/mhnrchs/UCSC_haploblocks/master/hg19/YRI/YRI_MAF_0.05.bigWig
         parent pop_signal on
         shortLabel YRI_MAF_0.05 sHat
-        longLabel Selection coefficient estimates for for YRI_MAF_0.05
+        longLabel Selection coefficient estimates for YRI_MAF_0.05
         type bigWig
         color 255,184,51
         subGroups view=Signal pop=YRI freq=common
